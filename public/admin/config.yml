@@ -1,0 +1,145 @@
+backend:
+  name: github
+  repo: Into-the-Great-Wide-Open/Into-the-Great-Wide-Open
+  branch: main
+
+# New photo/video uploads from the CMS land in one shared folder rather than
+# replicating the historical Continent/Country/City/Images/ convention —
+# Sveltia's media_folder placeholders can't reference other field values, and
+# src/lib/images.ts resolves photos by path, not by folder structure, so a
+# flat upload folder works with zero code changes.
+media_folder: 'src/assets/images/uploads'
+public_folder: '/src/assets/images/uploads'
+
+site_url: https://intothegreatwideopen.netlify.app
+logo_url: /favicon.svg
+
+collections:
+  - name: entries
+    label: 'Entries (city/place pages)'
+    label_singular: Entry
+    folder: src/content/entries
+    create: true
+    slug: '{{fields.continent}}-{{fields.country}}-{{fields.cityName}}'
+    identifier_field: title
+    summary: '{{title}} — {{dateLabel}}'
+    sortable_fields: [title, cityName, country, date]
+    view_filters:
+      - label: USA entries
+        field: region
+        pattern: '.+'
+    fields:
+      - { name: title, label: Title, widget: string, hint: 'e.g. "Hampi, India"' }
+      - { name: cityName, label: City name, widget: string }
+      - { name: subtitle, label: Subtitle, widget: string }
+      - name: continent
+        label: Continent
+        widget: select
+        options: [Africa, Asia, Europe, NorthAmerica, SouthAmerica, SouthPacific]
+      - { name: country, label: Country, widget: string, hint: 'Matches the country used on that country''s own page, e.g. "CostaRica"' }
+      - name: trip
+        label: Trip
+        widget: relation
+        collection: trips
+        search_fields: [name]
+        value_field: slug
+        display_fields: [name]
+      - { name: date, label: Date, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, required: false, hint: 'Leave blank for seasonal-label-only entries' }
+      - { name: dateLabel, label: Date label, widget: string, hint: 'e.g. "June 23, 2013" — the display text for the date' }
+      - { name: dateRangeLabel, label: Date range label, widget: string, required: false, hint: 'Only set on the primary entry of a merged multi-visit pair' }
+      - name: coordinates
+        label: Coordinates
+        widget: object
+        required: false
+        fields:
+          - { name: lat, label: Latitude, widget: number, value_type: float }
+          - { name: lng, label: Longitude, widget: number, value_type: float }
+      - { name: coordinatesSource, label: Coordinates source, widget: string, required: false }
+      - name: lyric
+        label: Lyric epigraph
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: lines, label: Lines, widget: list, field: { name: line, widget: string } }
+          - { name: attribution, label: Attribution, widget: string, required: false, hint: 'e.g. "- Jimi Hendrix"' }
+          - { name: attributionHref, label: Attribution link, widget: string, required: false }
+      - name: photos
+        label: Photos
+        widget: list
+        default: []
+        summary: '{{caption}}'
+        fields:
+          - { name: sourceLarge, label: Photo, widget: image, hint: 'Full-size photo; the page generates its own smaller sizes at build time' }
+          - { name: caption, label: Caption, widget: string, required: false }
+      - name: videos
+        label: Videos
+        widget: list
+        default: []
+        fields:
+          - { name: src, label: Video URL, widget: string }
+          - { name: caption, label: Caption, widget: string, required: false }
+      - { name: mergeGroup, label: 'Merge group (migration metadata — do not edit)', widget: string, required: false }
+      - { name: mergeGroupReason, label: 'Merge group reason (migration metadata — do not edit)', widget: string, required: false }
+      - { name: linkedPairGroup, label: 'Linked pair group (migration metadata — do not edit)', widget: string, required: false }
+      - { name: linkedPairReason, label: 'Linked pair reason (migration metadata — do not edit)', widget: string, required: false }
+      - { name: keptSeparateReason, label: 'Kept separate reason (migration metadata — do not edit)', widget: string, required: false }
+      - { name: dateDiscrepancyNote, label: 'Date discrepancy note (migration metadata — do not edit)', widget: string, required: false }
+      - { name: sourcePath, label: 'Source path (migration metadata — do not edit)', widget: string }
+      - name: region
+        label: 'USA region (USA trip entries only)'
+        widget: select
+        required: false
+        options: ['Eastern', 'Central', 'Southwest and Hawaii', 'Northwest']
+      - { name: body, label: Essay, widget: markdown, required: false }
+
+  - name: trips
+    label: 'Trips'
+    label_singular: Trip
+    folder: src/content/trips
+    create: true
+    slug: '{{slug}}'
+    identifier_field: name
+    fields:
+      - { name: name, label: Name, widget: string }
+      - { name: slug, label: Slug, widget: string, hint: 'Must be unique and match the filename; referenced by entries'' trip field' }
+      - { name: tagline, label: Tagline, widget: string, required: false }
+      - name: routeColor
+        label: Route color
+        widget: select
+        required: false
+        options: [Pine, Slate, Clay]
+      - { name: cityCount, label: City count, widget: number, value_type: int }
+      - { name: hasRealEssay, label: Has a written essay, widget: boolean, default: false }
+      - { name: isHub, label: 'Is a hub page (USA only)', widget: boolean, default: false }
+      - { name: isFlatIndex, label: 'Is a flat index (Other Travels only)', widget: boolean, default: false }
+      - name: lyric
+        label: Lyric epigraph
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: lines, label: Lines, widget: list, field: { name: line, widget: string } }
+          - { name: attribution, label: Attribution, widget: string, required: false }
+          - { name: attributionHref, label: Attribution link, widget: string, required: false }
+      - { name: body, label: Essay, widget: markdown, required: false }
+
+  - name: countries
+    label: 'Countries'
+    label_singular: Country
+    folder: src/content/countries
+    create: true
+    slug: '{{country}}'
+    identifier_field: country
+    fields:
+      - { name: country, label: Country, widget: string, hint: 'Matches the country used on entries, e.g. "CostaRica"' }
+      - name: lyric
+        label: Lyric epigraph
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: lines, label: Lines, widget: list, field: { name: line, widget: string } }
+          - { name: attribution, label: Attribution, widget: string, required: false }
+          - { name: attributionHref, label: Attribution link, widget: string, required: false }
+      - { name: sourcePath, label: 'Source path (migration metadata — do not edit)', widget: string }
