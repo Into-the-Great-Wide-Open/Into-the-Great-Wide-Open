@@ -1,80 +1,91 @@
 ---
-title: "Agra, India"
-cityName: "Agra"
-subtitle: "The Taj Mahal - check"
-continent: "Asia"
-country: "India"
-trip: "a-summer-in-india"
+title: Agra, India
+cityName: Agra
+subtitle: The Taj Mahal - check
+continent: Asia
+country: India
+trip: a-summer-in-india
 date: 2013-08-01
-dateLabel: "August 1, 2013"
+dateLabel: August 1, 2013
+dateRangeLabel: ''
 coordinates:
   lat: 27.1761745
   lng: 77.9800129
-coordinatesSource: "country_marker_match"
+coordinatesSource: country_marker_match
 lyric:
-  lines: ["Of all the things I value most of all", "I look upon my earth and feel the warmth", "And know that it is good"]
-  attribution: "- Black Sabbath"
-  attributionHref: "https://www.youtube.com/watch?v=ESFH1gNsARw"
+  lines:
+    - Of all the things I value most of all
+    - I look upon my earth and feel the warmth
+    - And know that it is good
+  attribution: '- Black Sabbath'
+  attributionHref: https://www.youtube.com/watch?v=K_s5TefzAvI
 photos:
-  - source: "Asia/India/Agra/Images/medium-1.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-1.jpg"
-    caption: "Entranceway to the Taj Mahal"
-  - source: "Asia/India/Agra/Images/medium-2.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-2.jpg"
-    caption: "The picture everyone takes"
-  - source: "Asia/India/Agra/Images/medium-3.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-3.jpg"
-    caption: "Taj Mahal"
-  - source: "Asia/India/Agra/Images/medium-4.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-4.jpg"
-    caption: "Pilgrims cross by the Taj"
-  - source: "Asia/India/Agra/Images/medium-5.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-5.jpg"
-    caption: "Facade of the Taj Mahal"
-  - source: "Asia/India/Agra/Images/medium-6.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-6.jpg"
-    caption: "Side mosque at the Taj Mahal"
-  - source: "Asia/India/Agra/Images/medium-7.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-7.jpg"
-    caption: "Taj Mahal from the courtyard"
-  - source: "Asia/India/Agra/Images/medium-8.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-8.jpg"
-    caption: "Minaret and walkway near the base of the Taj Mahal"
-  - source: "Asia/India/Agra/Images/medium-9.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-9.jpg"
-    caption: "Entrance to the Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-10.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-10.jpg"
-    caption: "Columns in the Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-11.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-11.jpg"
-    caption: "Decorated ceiling and walls in the Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-12.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-12.jpg"
-    caption: "A monkey enjoys the view from the Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-13.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-13.jpg"
-    caption: "Courtyard at the Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-14.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-14.jpg"
-    caption: "Locals admire the Taj Mahal in the distance"
-  - source: "Asia/India/Agra/Images/medium-15.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-15.jpg"
-    caption: "Agra Fort"
-  - source: "Asia/India/Agra/Images/medium-16.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-16.jpg"
-    caption: "Stables at Fatehpur Sikri"
-  - source: "Asia/India/Agra/Images/medium-17.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-17.jpg"
-    caption: "Carvings at Fatehpur Sikri"
-  - source: "Asia/India/Agra/Images/medium-18.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-18.jpg"
-    caption: "Interior chambers at Fatehpur Sikri"
-  - source: "Asia/India/Agra/Images/medium-19.jpg"
-    sourceLarge: "Asia/India/Agra/Images/large-19.jpg"
-    caption: "Courtyard at Fatehpur Sikri"
+  - sourceLarge: Asia/India/Agra/Images/large-1.jpg
+    caption: Entranceway to the Taj Mahal
+    source: Asia/India/Agra/Images/medium-1.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-2.jpg
+    caption: The picture everyone takes
+    source: Asia/India/Agra/Images/medium-2.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-3.jpg
+    caption: Taj Mahal
+    source: Asia/India/Agra/Images/medium-3.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-4.jpg
+    caption: Pilgrims cross by the Taj
+    source: Asia/India/Agra/Images/medium-4.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-5.jpg
+    caption: Facade of the Taj Mahal
+    source: Asia/India/Agra/Images/medium-5.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-6.jpg
+    caption: Side mosque at the Taj Mahal
+    source: Asia/India/Agra/Images/medium-6.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-7.jpg
+    caption: Taj Mahal from the courtyard
+    source: Asia/India/Agra/Images/medium-7.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-8.jpg
+    caption: Minaret and walkway near the base of the Taj Mahal
+    source: Asia/India/Agra/Images/medium-8.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-9.jpg
+    caption: Entrance to the Agra Fort
+    source: Asia/India/Agra/Images/medium-9.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-10.jpg
+    caption: Columns in the Agra Fort
+    source: Asia/India/Agra/Images/medium-10.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-11.jpg
+    caption: Decorated ceiling and walls in the Agra Fort
+    source: Asia/India/Agra/Images/medium-11.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-12.jpg
+    caption: A monkey enjoys the view from the Agra Fort
+    source: Asia/India/Agra/Images/medium-12.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-13.jpg
+    caption: Courtyard at the Agra Fort
+    source: Asia/India/Agra/Images/medium-13.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-14.jpg
+    caption: Locals admire the Taj Mahal in the distance
+    source: Asia/India/Agra/Images/medium-14.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-15.jpg
+    caption: Agra Fort
+    source: Asia/India/Agra/Images/medium-15.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-16.jpg
+    caption: Stables at Fatehpur Sikri
+    source: Asia/India/Agra/Images/medium-16.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-17.jpg
+    caption: Carvings at Fatehpur Sikri
+    source: Asia/India/Agra/Images/medium-17.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-18.jpg
+    caption: Interior chambers at Fatehpur Sikri
+    source: Asia/India/Agra/Images/medium-18.jpg
+  - sourceLarge: Asia/India/Agra/Images/large-19.jpg
+    caption: Courtyard at Fatehpur Sikri
+    source: Asia/India/Agra/Images/medium-19.jpg
 videos: []
-sourcePath: "Asia/India/Agra/index.shtml"
+mergeGroup: ''
+mergeGroupReason: ''
+linkedPairGroup: ''
+linkedPairReason: ''
+keptSeparateReason: ''
+dateDiscrepancyNote: ''
+sourcePath: Asia/India/Agra/index.shtml
+region: ''
 ---
 
 The Taj Mahal is supposed to be one of the wonders of the world and it was impressive, particularly the first glimpse of the sun on the brilliant white marble as you step into the shadows of the arched entrance chamber. At that moment everyone stops and takes the same photo, probably because it is the best photo. For me, that view and the ones just past it were the best. Up close, and inside, the Taj Mahal was somewhat disappointing. It didn’t have the same level of intricate stonework or carvings I have seen in other tombs and the decoration was very somber and staid. Fortunately the ambience is enhanced by the presence of mosques in colorful red stone on either side, each with more detailed craftsmanship. The location on the river bank also affords nice views of the mammoth position of the Agra Fort just nearby.
