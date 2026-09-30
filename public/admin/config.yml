@@ -68,6 +68,7 @@ collections:
         label: Photos
         widget: list
         default: []
+        required: false
         summary: '{{caption}}'
         fields:
           - { name: sourceLarge, label: Photo, widget: image, hint: 'Full-size photo; the page generates its own smaller sizes at build time' }
@@ -76,6 +77,7 @@ collections:
         label: Videos
         widget: list
         default: []
+        required: false
         fields:
           - { name: src, label: Video URL, widget: string }
           - { name: caption, label: Caption, widget: string, required: false }
