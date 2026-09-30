@@ -3,7 +3,7 @@ name: "Holidays in (and around) Spain"
 slug: "holidays-in-spain"
 tagline: null
 routeColor: "Slate"
-cityCount: 32
+cityCount: 28
 hasRealEssay: false
 isHub: false
 isFlatIndex: false

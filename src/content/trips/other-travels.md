@@ -3,7 +3,7 @@ name: "Other Travels"
 slug: "other-travels"
 tagline: null
 routeColor: null
-cityCount: 76
+cityCount: 80
 hasRealEssay: false
 isHub: false
 isFlatIndex: true

@@ -4,7 +4,7 @@ cityName: "Frankfurt"
 subtitle: "Business and Pleasure"
 continent: "Europe"
 country: "Germany"
-trip: "holidays-in-spain"
+trip: "other-travels"
 date: 2009-08-29
 dateLabel: "August 29, 2009"
 coordinates:

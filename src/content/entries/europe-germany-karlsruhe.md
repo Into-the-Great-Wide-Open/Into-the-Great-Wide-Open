@@ -4,7 +4,7 @@ cityName: "Karlsruhe"
 subtitle: "A University Town"
 continent: "Europe"
 country: "Germany"
-trip: "holidays-in-spain"
+trip: "other-travels"
 date: 2009-08-27
 dateLabel: "August 27, 2009"
 coordinates:

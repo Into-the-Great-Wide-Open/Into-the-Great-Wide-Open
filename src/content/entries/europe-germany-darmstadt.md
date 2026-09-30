@@ -4,7 +4,7 @@ cityName: "Darmstadt"
 subtitle: "A Trace of History"
 continent: "Europe"
 country: "Germany"
-trip: "holidays-in-spain"
+trip: "other-travels"
 date: 2009-08-25
 dateLabel: "August 25, 2009"
 coordinates:

@@ -4,7 +4,7 @@ cityName: "Munich"
 subtitle: "Festive Oktoberfest"
 continent: "Europe"
 country: "Germany"
-trip: "holidays-in-spain"
+trip: "other-travels"
 date: 2005-10-02
 dateLabel: "October 2, 2005"
 coordinates:
