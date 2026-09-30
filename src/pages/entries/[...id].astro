@@ -4,7 +4,7 @@ import { Image, getImage } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { countryDisplayName } from '../../lib/countryNames';
 import { getAdjacentEntries } from '../../lib/entryNav';
-import { resolveImage, safeWidths } from '../../lib/images';
+import { resolveImage } from '../../lib/images';
 
 export async function getStaticPaths() {
   const entries = await getCollection('entries');
@@ -37,19 +37,20 @@ const galleryPhotos = await Promise.all(
     // are simply downscaled from it at build time.
     const mediumImg = resolveImage(p.sourceLarge);
     const largeImg = mediumImg;
+    // Single size each (no responsive widths array) — cuts this page's total
+    // generated image count roughly 60% (one medium + one large file per
+    // photo, instead of up to 5), which is what keeps the whole site under
+    // Cloudflare Pages' 20,000-file-per-deployment limit and its build-time
+    // disk budget. See design-brief.md's "Image variant reduction" note.
     const medium = await getImage({
       src: mediumImg,
       width: 800,
       height: 500,
       fit: 'cover',
-      widths: [400, 800],
-      sizes: '(max-width: 700px) 100vw, 700px',
       format: 'webp',
     });
     const large = await getImage({
       src: largeImg,
-      widths: safeWidths(largeImg),
-      sizes: '100vw',
       format: 'webp',
     });
     return {
@@ -142,7 +143,7 @@ const countryName = countryDisplayName(data.country);
 
           {data.photos.length > 1 && (
             <div class="gallery-thumbs">
-              {data.photos.map((photo, i) => (
+              {galleryPhotos.map((photo, i) => (
                 <button
                   type="button"
                   class="gallery-thumb"
@@ -150,7 +151,10 @@ const countryName = countryDisplayName(data.country);
                   aria-label={`Show photo ${i + 1} of ${data.photos.length}`}
                   aria-current={i === 0 ? 'true' : undefined}
                 >
-                  <Image src={resolveImage(photo.sourceLarge)} width={120} height={120} fit="cover" alt="" loading="lazy" />
+                  {/* Reuses the already-generated medium-size file (CSS-cropped to a
+                      120x120 square) instead of asking Sharp for a separate thumbnail
+                      transform — see the file-count note above. */}
+                  <img src={photo.src} width="120" height="120" alt="" loading="lazy" />
                 </button>
               ))}
             </div>
