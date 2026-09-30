@@ -1,0 +1,87 @@
+---
+title: "Jaisalmer, India"
+cityName: "Jaisalmer"
+subtitle: "A Fort in the Desert"
+continent: "Asia"
+country: "India"
+trip: "a-summer-in-india"
+date: 2013-08-12
+dateLabel: "August 12, 2013"
+coordinates:
+  lat: 26.9035788
+  lng: 70.8947302
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["This desert rose", "Each of her veils, a secret promise", "This desert flower", "No sweet perfume ever tortured me more than this"]
+  attribution: "- Sting"
+  attributionHref: "https://www.youtube.com/watch?v=C3lWwBslWqg"
+photos:
+  - source: "Asia/India/Jaisalmer/Images/medium-1.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-1.jpg"
+    caption: "Royal bedroom in the fort"
+  - source: "Asia/India/Jaisalmer/Images/medium-2.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-2.jpg"
+    caption: "Carvings in the museum"
+  - source: "Asia/India/Jaisalmer/Images/medium-3.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-3.jpg"
+    caption: "Inside the Palace Museum"
+  - source: "Asia/India/Jaisalmer/Images/medium-4.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-4.jpg"
+    caption: "Children behind the bars of a door"
+  - source: "Asia/India/Jaisalmer/Images/medium-5.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-5.jpg"
+    caption: "Cows grazing on trash near the fort"
+  - source: "Asia/India/Jaisalmer/Images/medium-6.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-6.jpg"
+    caption: "Jain temple inside the fort"
+  - source: "Asia/India/Jaisalmer/Images/medium-7.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-7.jpg"
+    caption: "The desert beyond the fort walls"
+  - source: "Asia/India/Jaisalmer/Images/medium-8.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-8.jpg"
+    caption: "In the Jain temple"
+  - source: "Asia/India/Jaisalmer/Images/medium-9.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-9.jpg"
+    caption: "Carvings inside the Jain temple"
+  - source: "Asia/India/Jaisalmer/Images/medium-10.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-10.jpg"
+    caption: "Ceiling of the Jain temple"
+  - source: "Asia/India/Jaisalmer/Images/medium-11.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-11.jpg"
+    caption: "Inside the Jain temple"
+  - source: "Asia/India/Jaisalmer/Images/medium-12.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-12.jpg"
+    caption: "Inside the Jain temple"
+  - source: "Asia/India/Jaisalmer/Images/medium-13.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-13.jpg"
+    caption: "A street in the old city"
+  - source: "Asia/India/Jaisalmer/Images/medium-14.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-14.jpg"
+    caption: "The Jaisalmer Fort"
+  - source: "Asia/India/Jaisalmer/Images/medium-15.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-15.jpg"
+    caption: "Heading out on a camel safari"
+  - source: "Asia/India/Jaisalmer/Images/medium-16.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-16.jpg"
+    caption: "The desert dunes at dusk"
+  - source: "Asia/India/Jaisalmer/Images/medium-17.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-17.jpg"
+    caption: "A lizard scampers across the sand"
+  - source: "Asia/India/Jaisalmer/Images/medium-18.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-18.jpg"
+    caption: "A shadow in the desert"
+  - source: "Asia/India/Jaisalmer/Images/medium-19.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-19.jpg"
+    caption: "Camels resting after the trip"
+  - source: "Asia/India/Jaisalmer/Images/medium-20.jpg"
+    sourceLarge: "Asia/India/Jaisalmer/Images/large-20.jpg"
+    caption: "Ruins of an old city"
+videos: []
+sourcePath: "Asia/India/Jaisalmer/index.shtml"
+---
+
+As the bus rumbled westward from Jodhpur I could see the landscape desiccate and transform into a stony desert. Jaisalmer is much smaller than Jodhpur but is similarly dominated by a large hilltop fortress that presides over the city. Here the old city surrounding the fort is characterized by old and new havelis, elaborate houses with facades of intricate carvings. Inside the fort enclosure there are a Palace Museum and Jain Temples. The Palace Museum has rooms and courtyards similar to the fort in Jodhpur. The Jain Temples feature very impressive carvings over nearly every surface on the interior and exterior.
+
+Jaisalmer and its proximity to the desert also make it noteworthy for camel safaris. I took an overnight camel safari that began after a jeep ride to a remote desert area outside of town. While this was definitely not a ride through large expanses of sand dunes it still gave me a perspective on the local desert life. As awkward as the camel looks, it moves even less gracefully, so you can imagine how uncomfortable it is riding one. My experience of a few hours was more than enough; it would be hard to fathom a multi-day camel trek.
+
+After arriving at an area with some sand dunes the camel drivers prepared dinner and we ate while the sun was going down. Sleeping outside under the stars on the sand dunes was rather uncomfortable with the wind constantly blowing slowly, dusting me with sand all night. Sleeping amidst all this sand left me stiff and tired in the morning, not in the least looking forward to another few hours on the camel, but, such is desert life, hot, sandy, and uncomfortable. Therefore it is not surprising that this ancient way of life is gradually vanishing. Tourism helps support some of the old lifestyle but more and more people, especially the men, are moving to the cities to work and sending money home to support their families. So at least in this case, tourism helps on both sides, propagating and age-old way of life and providing tourists with a different perspective.

@@ -1,0 +1,87 @@
+---
+title: "Laayoune, Western Sahara"
+cityName: "Laayoune"
+subtitle: "A New Capital"
+continent: "Africa"
+country: "WesternSahara"
+trip: "up-the-coast-of-africa"
+date: 2013-01-01
+dateLabel: "January 1, 2013"
+coordinates:
+  lat: 27.1240402
+  lng: -13.1755686
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["Life, it seems, will fade away", "Drifting further every day"]
+  attribution: "- Metallica"
+  attributionHref: "https://www.youtube.com/watch?v=Q7C90sLh5Ok"
+photos:
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-1.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-1.jpg"
+    caption: "Another desert subdivision"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-2.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-2.jpg"
+    caption: "The edge of the cliff and the ocean"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-3.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-3.jpg"
+    caption: "Possibly a Sahrawi refugee camp"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-4.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-4.jpg"
+    caption: "A camel in the desert"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-5.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-5.jpg"
+    caption: "Miles and miles of empty coastline"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-6.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-6.jpg"
+    caption: "Mock lighthouse in Boujadour"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-7.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-7.jpg"
+    caption: "A rare fork in the road"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-8.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-8.jpg"
+    caption: "Fountains amidst new buildings"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-9.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-9.jpg"
+    caption: "Another large new plaza"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-10.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-10.jpg"
+    caption: "Construction of a new plaza"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-11.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-11.jpg"
+    caption: "Closed artisan shops"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-12.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-12.jpg"
+    caption: "Palm trees around the main plaza"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-13.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-13.jpg"
+    caption: "Strange place for a soccer field"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-14.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-14.jpg"
+    caption: "Old Spanish church"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-15.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-15.jpg"
+    caption: "The road across the lagoon"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-16.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-16.jpg"
+    caption: "Reflections in the lagoon"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-17.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-17.jpg"
+    caption: "Large UN presence in Laayoune"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-18.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-18.jpg"
+    caption: "Mosque at dusk"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-19.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-19.jpg"
+    caption: "Panoramic view of the lagoon"
+  - source: "Africa/WesternSahara/Laayoune/Images/medium-20.jpg"
+    sourceLarge: "Africa/WesternSahara/Laayoune/Images/large-20.jpg"
+    caption: "Deserted main plaza at mid-day"
+videos: []
+sourcePath: "Africa/WesternSahara/Laayoune/index.shtml"
+---
+
+Laayoune is the administrative center of Western Sahara. The large military garrisons and police headquarters attest to that. The United Nations is very visible here as well, with sparkling new white Toyota Landcruisers occupying the parking lot in front of the posh (for the city) Hotel Parador. This bureaucracy seems fitting of the large sterile city of over 200,000 about halfway in between Dakhla and the real civilization of Agadir.
+
+The enormous Place du Mechouar was deserted in the middle of the day, making the few visitors seem tiny in its spaciousness. Despite its emptiness there was ongoing large scale construction of Place Oum Saad just to the south. North of the Grand Mosque, an old restored Spanish Cathedral seemed oddly out of place in this very conservative Muslim city. The only real point of interest was the vast lagoon that opens up on the north edge of the city. There the city comes to an abrupt end, penned in by the water and the desert. A strangely situated and picturesque soccer field occupies land in the center of a sandy plateau in the mist of the lagoon, while on the other side sand dunes stretch to the horizon.
+
+There is one main street that runs through the city, bending around to pass a series of fountains flanked by busy traffic. The uninspiring stores are broken up by pizza and other fast food restaurants along with the occasional fruit stand or butcher shop. The exception being the delicious meat sandwich I had at a local eatery with only an Arabic sign. The sad fact was that that sandwich was the highlight of my short stay in Laayoune. It made me think how difficult it must be to be a UN worker stationed here and what, if any, good will ever come from their presence.

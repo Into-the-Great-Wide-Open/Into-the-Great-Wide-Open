@@ -1,0 +1,93 @@
+---
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countryDisplayName } from '../../lib/countryNames';
+import { tryResolveImage } from '../../lib/images';
+import CountryMap from '../../components/CountryMap.astro';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('trips');
+  // USA has its own dedicated hub page (src/pages/trips/usa.astro) — see
+  // design-brief.md's "USA hub page" section — so it's excluded here.
+  return trips
+    .filter((trip) => trip.data.slug !== 'usa')
+    .map((trip) => ({
+      params: { slug: trip.data.slug },
+      props: { trip },
+    }));
+}
+
+const { trip } = Astro.props;
+const { data } = trip;
+const { Content } = await render(trip);
+
+const allEntries = await getCollection('entries');
+const stops = allEntries
+  .filter((e) => e.data.trip === data.slug)
+  .sort((a, b) => (a.data.date?.getTime() ?? 0) - (b.data.date?.getTime() ?? 0));
+
+const stopCards = stops.map((entry) => ({
+  entry,
+  heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge),
+}));
+
+const routeColorVar = data.routeColor ? `var(--${data.routeColor.toLowerCase()})` : 'var(--ink)';
+const countryCount = new Set(stops.map((e) => e.data.country)).size;
+
+const mapStops = stops
+  .filter((e) => e.data.coordinates)
+  .map((e) => ({
+    id: e.id,
+    cityName: e.data.cityName,
+    lat: e.data.coordinates!.lat,
+    lng: e.data.coordinates!.lng,
+  }));
+---
+
+<BaseLayout title={data.name} description={data.tagline ?? `${data.cityCount} stops`}>
+  <div class="container" data-pagefind-body>
+    <span hidden data-pagefind-meta={`place:${data.name}`}></span>
+
+    {data.isHub && <p class="tag">Hub page — spans multiple trips</p>}
+    <h1 style={`color: ${routeColorVar};`}>{data.name}</h1>
+    {data.tagline && <h2>{data.tagline}</h2>}
+    <p class="meta">
+      {data.cityCount} stops · {countryCount} {countryCount === 1 ? 'country' : 'countries'}
+    </p>
+
+    {data.hasRealEssay ? (
+      <div class="prose">
+        <Content />
+      </div>
+    ) : (
+      <p class="meta" style="font-style: italic;">No trip essay written yet — see the stop list below.</p>
+    )}
+
+    {mapStops.length > 0 && (
+      <>
+        <h2 style="font-style: normal; color: var(--ink); margin-top: 2rem;">Route</h2>
+        <CountryMap stops={mapStops} routeColor={data.isFlatIndex ? null : data.routeColor} />
+      </>
+    )}
+
+    <h2 style="font-style: normal; color: var(--ink); margin-top: 2rem;">
+      {data.isFlatIndex ? 'Countries' : 'All stops'}
+    </h2>
+    <div class="grid photo-cards photo-cards-small">
+      {stopCards.map(({ entry, heroImg }) => (
+        <a class="photo-card" href={`/entries/${entry.id}`}>
+          {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>{entry.data.cityName}, {countryDisplayName(entry.data.country)}</h3>
+            <p class="meta">{entry.data.dateRangeLabel ?? entry.data.dateLabel}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

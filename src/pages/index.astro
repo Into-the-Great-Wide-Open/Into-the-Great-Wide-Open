@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { countCountriesPerTrip, getTripHeroPhoto } from '../lib/tripStats';
+import { countryDisplayName } from '../lib/countryNames';
+import { getWorldMapLayers } from '../lib/worldMap';
+import { resolveImage, tryResolveImage } from '../lib/images';
+import CountryMap from '../components/CountryMap.astro';
+
+const trips = await getCollection('trips');
+const bigTrips = trips.filter((t) => t.data.hasRealEssay);
+
+const entries = await getCollection('entries');
+const countryCounts = countCountriesPerTrip(entries);
+
+const recent = [...entries]
+  .filter((e) => e.data.date)
+  .sort((a, b) => (b.data.date!.getTime() ?? 0) - (a.data.date!.getTime() ?? 0))
+  .slice(0, 6);
+
+const mapLayers = getWorldMapLayers(entries);
+
+// The five images from the original site's homepage slideshow (start-img/start-slide-*.jpg),
+// each linking to its real entry — kept as Andrew's own curated picks rather than
+// re-derived from current content. See design-brief.md.
+const featured = [
+  { image: 'home/start-slide-1.jpg', caption: 'Hampi, India', id: 'asia-india-hampi' },
+  { image: 'home/start-slide-2.jpg', caption: 'Palawan, Philippines', id: 'southpacific-philippines-elnido' },
+  { image: 'home/start-slide-3.jpg', caption: 'Khiva, Uzbekistan', id: 'asia-uzbekistan-khiva' },
+  { image: 'home/start-slide-4.jpg', caption: 'Cape Blanc, Mauritania', id: 'africa-mauritania-nouadhibou' },
+  { image: 'home/start-slide-5.jpg', caption: 'Isla Ometepe, Nicaragua', id: 'northamerica-nicaragua-islaometepe' },
+].map((photo) => ({ ...photo, img: resolveImage(photo.image) }));
+
+const bigTripCards = bigTrips.map((trip) => ({
+  trip,
+  countryCount: countryCounts.get(trip.data.slug) ?? 0,
+  heroImg: tryResolveImage(getTripHeroPhoto(trip.data.slug, entries)),
+}));
+
+const recentCards = recent.map((entry) => ({
+  entry,
+  heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge),
+}));
+---
+
+<BaseLayout
+  title="Home"
+  description="My travels have taken me to amazing places all around the world and have changed my life in countless ways. Share my journey into the great wide open."
+>
+  <div class="container">
+    <h1>Into the Great Wide Open</h1>
+
+    <CountryMap routes={mapLayers} height={380} />
+
+    <blockquote class="home-quote">
+      <p>“The world is a great book, of which they that never stir from home read only a page.”</p>
+      <cite>— Augustine of Hippo</cite>
+    </blockquote>
+
+    <p>We often live the majority of our lives within the well-defined boundaries of routines that offer familiarity and comfort. Travel is extraordinary in that it offers us an opportunity to escape those bounds and broaden our horizons. By exposing us to vibrant cultures, breathtaking scenery, and exotic cuisines, traveling can challenge not only our conceptions of the world around us but also our understanding of ourselves.</p>
+
+    <p>My travels have taken me to amazing places all around the world. They have allowed me to meet interesting people, savor new experiences, and test my own limits. In short, travel has changed my life in countless ways. I hope that the images and words detailing my own experiences will generate a similar curiosity and interest for others, leading them on their own journeys into the great wide open.</p>
+
+    <div class="mini-gallery">
+      {featured.map((photo) => (
+        <a class="mini-gallery-item" href={`/entries/${photo.id}`}>
+          <Image src={photo.img} alt={photo.caption} loading="lazy" widths={[400, 800]} sizes="(max-width: 600px) 100vw, 400px" />
+          <span class="mini-gallery-caption">{photo.caption}</span>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="section-heading">The big trips</h2>
+    <div class="grid photo-cards">
+      {bigTripCards.map(({ trip, countryCount, heroImg }) => (
+        <a class="photo-card" href={`/trips/${trip.data.slug}`}>
+          {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>{trip.data.name}</h3>
+            <p class="meta">
+              {trip.data.cityCount} stops · {countryCount} {countryCount === 1 ? 'country' : 'countries'}
+            </p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="section-heading">Recent travels</h2>
+    <div class="grid photo-cards photo-cards-small recent-travels-strip">
+      {recentCards.map(({ entry, heroImg }) => (
+        <a class="photo-card" href={`/entries/${entry.id}`}>
+          {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>{entry.data.cityName}, {countryDisplayName(entry.data.country)}</h3>
+            <p class="meta">{entry.data.dateLabel}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p style="margin-top: 2.5rem;"><a href="/trips">See all trips</a> · <a href="/countries">Browse all countries</a></p>
+  </div>
+</BaseLayout>

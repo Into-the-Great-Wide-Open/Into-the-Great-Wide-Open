@@ -1,0 +1,67 @@
+---
+title: "Seattle, WA; USA"
+cityName: "Seattle"
+subtitle: "Gray and Gloomy Visions"
+continent: "NorthAmerica"
+country: "USA"
+trip: "usa"
+region: "Northwest"
+date: 2010-01-16
+dateLabel: "January 16, 2010"
+coordinates:
+  lat: 47.6025578
+  lng: -122.3238225
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["To be alive, I say that the colors must swirl", "And I believe that maybe today, we will all get to appreciate the beauty of gray"]
+  attribution: "- Live"
+  attributionHref: "https://www.youtube.com/watch?v=yyqeQa-HOv0"
+photos:
+  - source: "NorthAmerica/USA/Seattle/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-1.jpg"
+    caption: "Public Market"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-2.jpg"
+    caption: "Public Market"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-3.jpg"
+    caption: "The Space Needle"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-4.jpg"
+    caption: "The Space Needle"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-5.jpg"
+    caption: "Park near the Space Needle"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-6.jpg"
+    caption: "Art under the bridge"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-7.jpg"
+    caption: "Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-8.jpg"
+    caption: "Downtown seen from Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-9.jpg"
+    caption: "Downtown seen from Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-10.jpg"
+    caption: "Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-11.jpg"
+    caption: "Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-12.jpg"
+    caption: "Looking across the bay"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-13.jpg"
+    caption: "Gas Works Park"
+  - source: "NorthAmerica/USA/Seattle/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/USA/Seattle/Images/large-14.jpg"
+    caption: "Seattle at night"
+videos: []
+keptSeparateReason: "USA residency-era pattern -- years apart, kept as plain chronological entries"
+sourcePath: "NorthAmerica/USA/Seattle/index.shtml"
+---
+
+

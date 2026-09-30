@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --paper: #EDEEE8;
+  --ink: #20261F;
+  --pine: #33503E;
+  --slate: #4C6B78;
+  --clay: #A8663D;
+
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
+
+  --measure: 520px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--pine);
+}
+
+h4 {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--slate);
+}
+
+a {
+  color: var(--pine);
+}
+
+p {
+  max-width: var(--measure);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--clay);
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+}
+
+.lyric {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--ink);
+  border-left: 2px solid var(--pine);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lyric p {
+  margin: 0;
+}
+
+.lyric cite {
+  display: block;
+  font-style: normal;
+  font-size: 0.875rem;
+  color: var(--slate);
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(32, 38, 31, 0.12);
+  border-radius: 6px;
+  padding: 1rem;
+  background: white;
+}
+
+.card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.card .meta {
+  font-size: 0.8rem;
+  color: var(--slate);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(32, 38, 31, 0.12);
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 0;
+  padding: 0.25rem;
+  margin-left: 1rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.wordmark-icon {
+  flex-shrink: 0;
+}
+
+.wordmark-text {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
+.prose p {
+  margin: 0 0 1.1em;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- Section headings (homepage etc.) --- */
+.section-heading {
+  font-style: normal;
+  color: var(--ink);
+  margin-top: 2.5rem;
+}
+
+/* --- Image-forward cards (homepage trip/recent-travel cards) --- */
+.photo-cards {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.photo-cards-small {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.photo-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  border: 1px solid rgba(32, 38, 31, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(32, 38, 31, 0.12);
+}
+
+.photo-card-image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: rgba(32, 38, 31, 0.06);
+}
+
+.photo-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-card-body {
+  padding: 0.85rem 1rem 1rem;
+}
+
+.photo-card-body h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.photo-card-body .meta {
+  margin: 0;
+}
+
+/* --- Clickable photo grid on entry pages --- */
+.photo-trigger {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.photo-trigger img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+/* --- Lightbox overlay --- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(32, 38, 31, 0.92);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 2rem 1rem;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox-img {
+  max-width: min(90vw, 1100px);
+  max-height: 72vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.lightbox-caption {
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  margin: 1rem 0 0.25rem;
+  max-width: 700px;
+  text-align: center;
+}
+
+.lightbox-count {
+  color: rgba(237, 238, 232, 0.65);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+  background: none;
+  border: 0;
+  color: var(--paper);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 0;
+  color: var(--paper);
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.lightbox-prev {
+  left: 0.5rem;
+}
+
+.lightbox-next {
+  right: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .lightbox-nav {
+    font-size: 2rem;
+  }
+}
+
+/* --- Previous/next entry footer --- */
+.entry-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(32, 38, 31, 0.12);
+}
+
+.entry-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--ink);
+  max-width: 45%;
+}
+
+.entry-nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.entry-nav-thumb {
+  flex: none;
+  width: 64px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: rgba(32, 38, 31, 0.06);
+}
+
+.entry-nav-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.entry-nav-text .meta {
+  margin: 0 0 0.15rem;
+}
+
+.entry-nav-text span:last-child {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+@media (max-width: 640px) {
+  .entry-nav-thumb {
+    width: 48px;
+    height: 36px;
+  }
+}
+
+/* --- Homepage: original quote (Augustine of Hippo) --- */
+.home-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--ink);
+  border-left: 2px solid var(--pine);
+  padding-left: 1.25rem;
+  margin: 1.75rem 0 0.5rem;
+  max-width: 640px;
+}
+
+.home-quote p {
+  margin: 0;
+  max-width: none;
+}
+
+.home-quote cite {
+  display: block;
+  font-style: normal;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--slate);
+  margin-top: 0.5rem;
+}
+
+/* --- Homepage: featured mini-gallery mosaic --- */
+.mini-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 130px;
+  gap: 0.6rem;
+  margin: 1.75rem 0 2.5rem;
+}
+
+.mini-gallery-item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.mini-gallery-item:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.mini-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.mini-gallery-item:hover img {
+  transform: scale(1.04);
+}
+
+.mini-gallery-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  color: var(--paper);
+  background: linear-gradient(to top, rgba(32, 38, 31, 0.75), rgba(32, 38, 31, 0));
+}
+
+@media (max-width: 640px) {
+  .mini-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 110px;
+  }
+
+  .mini-gallery-item:first-child {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+}
+
+/* --- Entry page: main-image + thumbnail-strip gallery --- */
+.gallery {
+  margin: 1.5rem 0;
+}
+
+.gallery-main {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  padding: 0;
+  border: 0;
+  cursor: zoom-in;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(32, 38, 31, 0.06);
+}
+
+.gallery-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  margin: 0.6rem 0 0;
+  min-height: 1.2em;
+}
+
+.gallery-thumbs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.gallery-thumb {
+  flex: 0 0 auto;
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+
+.gallery-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-thumb[aria-current='true'] {
+  opacity: 1;
+  border-color: var(--clay);
+}
+
+.gallery-thumb:hover {
+  opacity: 1;
+}
+
+/* --- Non-clickable photo cards (countries page — no country detail page yet) --- */
+.photo-card-static {
+  cursor: default;
+}
+
+.photo-card-static:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* --- Country detail page: trip badges + flag/passport-stamp row --- */
+.country-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.country-artifacts {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.country-flag {
+  width: 120px;
+  height: auto;
+  border: 1px solid rgba(32, 38, 31, 0.12);
+  border-radius: 4px;
+}
+
+.country-stamp {
+  width: 140px;
+  height: auto;
+  border-radius: 4px;
+  transform: rotate(-2deg);
+  box-shadow: 0 2px 6px rgba(32, 38, 31, 0.18);
+}
+
+/* --- Country detail page: route map --- */
+.country-map {
+  width: 100%;
+  height: 340px;
+  margin: 1.25rem 0 2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(32, 38, 31, 0.12);
+  background: var(--paper);
+  z-index: 0;
+}
+
+.map-marker span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--clay);
+  border: 2px solid var(--paper);
+  box-shadow: 0 0 0 1px rgba(32, 38, 31, 0.35);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.leaflet-popup-content a {
+  color: var(--pine);
+  font-weight: 600;
+}
+
+
+/* --- About page: 4-image photo grid (replaces old image-map header) --- */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.about-grid-item {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.about-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.about-grid-item:hover img {
+  transform: scale(1.04);
+}
+
+.about-grid-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  color: var(--paper);
+  background: linear-gradient(to top, rgba(32, 38, 31, 0.75), rgba(32, 38, 31, 0));
+}
+
+@media (max-width: 640px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- Video embed: click-to-load facade (thumbnail + play button) --- */
+.video-list {
+  margin: 1.5rem 0;
+}
+
+.video-embed {
+  max-width: 500px;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(32, 38, 31, 0.06);
+}
+
+.video-facade {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: none;
+}
+
+.video-facade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: rgba(32, 38, 31, 0.65);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.video-play-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px 0 10px 16px;
+  border-color: transparent transparent transparent var(--paper);
+}
+
+.video-facade:hover .video-play-icon {
+  background: var(--clay);
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.video-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.72rem;
+  text-align: left;
+  font-family: var(--font-body);
+  color: var(--paper);
+  background: linear-gradient(to top, rgba(32, 38, 31, 0.75), rgba(32, 38, 31, 0));
+}
+
+.video-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* --- USA hub page: outline button + region sections --- */
+.btn-outline {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--pine);
+  background: none;
+  border: 1px solid var(--pine);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: var(--pine);
+  color: var(--paper);
+}
+
+.usa-region {
+  margin-top: 2rem;
+}
+
+/* --- Site search (Pagefind-backed /search page) --- */
+.nav-search {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ink);
+}
+
+.nav-search svg {
+  vertical-align: middle;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.75rem;
+  max-width: var(--measure);
+  margin-top: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid rgba(32, 38, 31, 0.25);
+  border-radius: 4px;
+  padding: 0.6rem 0.85rem;
+}
+
+.search-input:focus {
+  outline: 2px solid var(--pine);
+  outline-offset: 1px;
+}
+
+#search-status {
+  margin-top: 1rem;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.search-result {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(32, 38, 31, 0.12);
+}
+
+.search-result img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.search-result-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.search-result-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.4rem;
+}
+
+.search-result-trip {
+  font-size: 0.7rem;
+}
+
+.search-snippet {
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin: 0;
+}
+
+.search-snippet mark {
+  background: none;
+  color: var(--clay);
+  font-weight: 600;
+}
+
+/* --- Mobile nav (hamburger dropdown) --- */
+@media (max-width: 640px) {
+  .wordmark-text {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--paper);
+    border-bottom: 1px solid rgba(32, 38, 31, 0.12);
+    padding: 0.5rem 1.25rem 1rem;
+    z-index: 20;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+    padding: 0.6rem 0;
+    width: 100%;
+  }
+
+  .nav {
+    position: relative;
+  }
+}
+
+/* --- Mobile grid behavior ---
+   The base .grid rule already collapses to 2 columns at <=640px (see the
+   first @media block above). The three .photo-cards-small grids need
+   different mobile behavior from each other and from that default:
+     - homepage "Recent travels"  -> horizontal swipe strip
+     - "Browse by region"         -> stays 2 columns (region-grid)
+     - every other stop-card grid -> fully single column
+   Marker classes on top of the shared .grid.photo-cards.photo-cards-small
+   base let these differ by selector specificity rather than source order. */
+@media (max-width: 640px) {
+  .photo-cards-small {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-cards-small.region-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .photo-cards-small.recent-travels-strip {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.85rem;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .photo-cards-small.recent-travels-strip .photo-card {
+    flex: 0 0 200px;
+  }
+}

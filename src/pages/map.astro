@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getWorldMapLayers } from '../lib/worldMap';
+import CountryMap from '../components/CountryMap.astro';
+
+const entries = await getCollection('entries');
+const mapLayers = getWorldMapLayers(entries);
+const totalStops = mapLayers.reduce((sum, layer) => sum + layer.stops.length, 0);
+---
+
+<BaseLayout title="Map" description={`Every stop across ${totalStops} entries, all on one map.`}>
+  <div class="container">
+    <h1>Map</h1>
+    <p class="meta">{totalStops} stops, every trip in one place</p>
+
+    <CountryMap routes={mapLayers} height={560} />
+
+    <p class="meta" style="margin-top: 1rem;">Click any marker to jump to that entry. <a href="/trips">Browse by trip</a> · <a href="/countries">browse by country</a> · <a href="/travels">see every entry as a list</a>.</p>
+  </div>
+</BaseLayout>

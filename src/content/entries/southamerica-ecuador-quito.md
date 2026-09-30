@@ -1,0 +1,98 @@
+---
+title: "Quito, Ecuador"
+cityName: "Quito"
+subtitle: "In the Valley of Quito"
+continent: "SouthAmerica"
+country: "Ecuador"
+trip: "southward-bound"
+date: 2008-01-15
+dateLabel: "January 15, 2008"
+coordinates:
+  lat: -0.1807
+  lng: -78.4678
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["With your disregard of time, virtue, horizon, here the angels never sleep"]
+  attribution: "- Black Crowes"
+  attributionHref: "https://www.youtube.com/watch?v=fv9gZ95PbiM"
+photos:
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-1.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-1.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-2.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-2.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-3.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-3.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-4.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-4.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-5.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-5.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-6.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-6.jpg"
+    caption: "The Basilica in Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-7.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-7.jpg"
+    caption: "The view from the top of the Basilica"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-8.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-8.jpg"
+    caption: "The view from the top of the Basilica"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-9.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-9.jpg"
+    caption: "The view from the top of the Basilica"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-10.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-10.jpg"
+    caption: "The view from the top of the Basilica"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-11.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-11.jpg"
+    caption: "The old city of Quito"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-12.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-12.jpg"
+    caption: "The fake equator and monument"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-13.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-13.jpg"
+    caption: "The fake equator and monument"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-14.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-14.jpg"
+    caption: "Equator theme park"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-15.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-15.jpg"
+    caption: "The real equator"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-16.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-16.jpg"
+    caption: "The real equator"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-17.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-17.jpg"
+    caption: "Balanced egg at the real equator"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-18.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-18.jpg"
+    caption: "A gold mask from the Museo Banco Central"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-19.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-19.jpg"
+    caption: "Artwork from the Guayasamin Museum"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-20.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-20.jpg"
+    caption: "Artwork from the Guayasamin Museum"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-21.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-21.jpg"
+    caption: "Artwork from the Guayasamin Museum"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-22.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-22.jpg"
+    caption: "Artwork from the Guayasamin Museum"
+  - source: "SouthAmerica/Ecuador/Quito/Images/medium-23.jpg"
+    sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-23.jpg"
+    caption: "Panorama of Quito"
+videos: []
+sourcePath: "SouthAmerica/Ecuador/Quito/index.shtml"
+---
+
+To me, Quito was not very impressive; it seemed a rather charmless result of the mixture of old and new influences. There are still plenty of cultural remnants relegated to the numerous museums but in districts of the new city like Mariscal there is a dominance of fast food, chains like KFC, Pizza Hut, McDonalds, Papa Johns, and even some local fast food chains. One place was even advertising Texas fried rice, whatever that might be. It was all a little bit too much for me. Quito is beautifully set in a valley between several large mountains, filling up the basin with houses creeping up the mountainsides as if they had been poured into the valley.
+
+The main square of the old city is dominated by the Basilica, an immense gothic style church that is ornately decorated and is great for exploring as you can climb to the tops of the towers through a series of stairs, spiral staircases, and ladders. You can even ring the church bells anytime you want, although this is probably not encouraged. The public transportation is pretty good with three lines running north-south along different main streets and the city is narrow enough to walk east-west without much problem. The bus terminal is another matter. The Quito bus terminal is one of the more depressing places I have seen on my trip. The whole thing resembles a jail and I was very glad to be arriving in the late morning because being there at night would certainly give you nightmares; my guide book even stated that the bus terminal is unsafe at all hours of the day.
+
+The Guayasamin museum was one of the highlights for me; its walls were lined with interesting and colorful paintings from the artist, Eduardo Guayasamin. Another attraction is Mitad del Mundo, the town located on the equator a short bus ride to the north. There is a really touristy theme park around the monument that was constructed at what was originally thought to be the location of the equator. This site turned out to be about 200 meters south of the actual location that was later precisely determined by GPS. At the real equator there is a museum that demonstrates the effects in the different hemispheres, such as water swirling clockwise or counterclockwise and the path of the sun at different times of the year. You also get the chance to see if you can balance an egg on the head of a nail, something that can supposedly only be done at the equator. I succeeded in doing this and received an official certificate signed by our tour guide and another witness attesting to my success and mastery of this skill. Whether it is possible to do this away from the equator I don´t know since I have never tried.
+
+The only other thing I wanted to do in Quito was to take the teleferico to the top of the mountain but unfortunately the weather never cooperated and it was completely obscured by the clouds the day I intended to go. I wasn´t about to linger around for another day solely for that as I was looking forward to getting out of the city and seeing some more scenic parts of the country.

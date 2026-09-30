@@ -1,0 +1,65 @@
+---
+title: "Eceabat, Turkey"
+cityName: "Eceabat"
+subtitle: "Remembering the Great War"
+continent: "Asia"
+country: "Turkey"
+trip: "holidays-in-spain"
+date: 2013-04-01
+dateLabel: "April 1, 2013"
+coordinates:
+  lat: 40.1479
+  lng: 26.3785
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Our currency is flesh and bones"]
+  attribution: "- Pink Floyd"
+  attributionHref: "https://www.youtube.com/watch?v=qIkW5okTFtg"
+photos:
+  - source: "Asia/Turkey/Eceabat/Images/medium-1.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-1.jpg"
+    caption: "Memorial to the war in the trenches"
+  - source: "Asia/Turkey/Eceabat/Images/medium-2.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-2.jpg"
+    caption: "Model of the town in front of the real town"
+  - source: "Asia/Turkey/Eceabat/Images/medium-3.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-3.jpg"
+    caption: "Anzac Cove"
+  - source: "Asia/Turkey/Eceabat/Images/medium-4.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-4.jpg"
+    caption: "Setting up for the Anzac Day celebrations"
+  - source: "Asia/Turkey/Eceabat/Images/medium-5.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-5.jpg"
+    caption: "Cemetery near Anzac Cove"
+  - source: "Asia/Turkey/Eceabat/Images/medium-6.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-6.jpg"
+    caption: "Lone Pine cemetery"
+  - source: "Asia/Turkey/Eceabat/Images/medium-7.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-7.jpg"
+    caption: "Turkish cemetery"
+  - source: "Asia/Turkey/Eceabat/Images/medium-8.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-8.jpg"
+    caption: "Turkish memorial"
+  - source: "Asia/Turkey/Eceabat/Images/medium-9.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-9.jpg"
+    caption: "The theater on the hillside"
+  - source: "Asia/Turkey/Eceabat/Images/medium-10.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-10.jpg"
+    caption: "At the former front line"
+  - source: "Asia/Turkey/Eceabat/Images/medium-11.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-11.jpg"
+    caption: "Memorial to Ataturk"
+  - source: "Asia/Turkey/Eceabat/Images/medium-12.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-12.jpg"
+    caption: "Waterfront in Canakkale"
+  - source: "Asia/Turkey/Eceabat/Images/medium-13.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-13.jpg"
+    caption: "Model of the Trojan horse"
+  - source: "Asia/Turkey/Eceabat/Images/medium-14.jpg"
+    sourceLarge: "Asia/Turkey/Eceabat/Images/large-14.jpg"
+    caption: "Famous Turkish poem illuminated on the hillside: Traveller halt!  /  The soil you tread  /  Once witnessed the end of an era"
+videos: []
+sourcePath: "Asia/Turkey/Eceabat/index.shtml"
+---
+
+

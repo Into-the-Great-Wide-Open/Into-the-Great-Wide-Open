@@ -1,0 +1,66 @@
+---
+title: "Madison, WI; USA"
+cityName: "Madison"
+subtitle: "Lakefront Scenery"
+continent: "NorthAmerica"
+country: "USA"
+trip: "usa"
+region: "Central"
+date: 2010-05-30
+dateLabel: "May 30, 2010"
+coordinates:
+  lat: 43.0909282
+  lng: -89.420458
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["It just seems so useless to have to work so hard, and nothing ever really seems to come from it"]
+  attribution: "- Tom Petty"
+  attributionHref: "https://www.youtube.com/watch?v=n4nPa35CZPI"
+photos:
+  - source: "NorthAmerica/USA/Madison/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-1.jpg"
+    caption: "The Wisconsin State Capitol"
+  - source: "NorthAmerica/USA/Madison/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-2.jpg"
+    caption: "The Wisconsin State Capitol"
+  - source: "NorthAmerica/USA/Madison/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-3.jpg"
+    caption: "The Wisconsin State Capitol"
+  - source: "NorthAmerica/USA/Madison/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-4.jpg"
+    caption: "A kaleidoscope"
+  - source: "NorthAmerica/USA/Madison/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-5.jpg"
+    caption: "Botanical Gardens"
+  - source: "NorthAmerica/USA/Madison/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-6.jpg"
+    caption: "Botanical Gardens"
+  - source: "NorthAmerica/USA/Madison/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-7.jpg"
+    caption: "Botanical Gardens"
+  - source: "NorthAmerica/USA/Madison/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-8.jpg"
+    caption: "Botanical Gardens"
+  - source: "NorthAmerica/USA/Madison/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-9.jpg"
+    caption: "The University of Wisconsin"
+  - source: "NorthAmerica/USA/Madison/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-10.jpg"
+    caption: "The University of Wisconsin"
+  - source: "NorthAmerica/USA/Madison/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-11.jpg"
+    caption: "State Street"
+  - source: "NorthAmerica/USA/Madison/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-12.jpg"
+    caption: "The Wisconsin State Capitol"
+  - source: "NorthAmerica/USA/Madison/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-13.jpg"
+    caption: "Lakefront views"
+  - source: "NorthAmerica/USA/Madison/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/USA/Madison/Images/large-14.jpg"
+    caption: "The Wisconsin State Capitol through the fountain"
+videos: []
+sourcePath: "NorthAmerica/USA/Madison/index.shtml"
+---
+
+

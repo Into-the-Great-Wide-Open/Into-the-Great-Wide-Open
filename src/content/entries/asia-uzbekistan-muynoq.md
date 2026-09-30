@@ -1,0 +1,98 @@
+---
+title: "Muynoq, Uzbekistan"
+cityName: "Muynoq"
+subtitle: "Where Has All the Water Gone?"
+continent: "Asia"
+country: "Uzbekistan"
+trip: "into-the-great-wide-open"
+date: 2012-06-09
+dateLabel: "June 9, 2012"
+coordinates:
+  lat: 43.7683333
+  lng: 59.0213889
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["It was a dry wind", "And it swept across the desert", "And it curled into the circle of birth", "And the dead sand", "Falling on the children", "The mothers and the fathers", "And the automatic earth", "These are the days of miracle and wonder"]
+  attribution: "- Paul Simon"
+  attributionHref: "https://www.youtube.com/watch?v=Uy5T6s25XK4"
+photos:
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-1.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-1.jpg"
+    caption: "Rusting ships in the desert"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-2.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-2.jpg"
+    caption: "Rusting ships in the desert"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-3.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-3.jpg"
+    caption: "King of the World, Titanic style"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-4.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-4.jpg"
+    caption: "A photo from the bow"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-5.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-5.jpg"
+    caption: "A rusting ship waits in the sand"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-6.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-6.jpg"
+    caption: "More rusting ships"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-7.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-7.jpg"
+    caption: "Old ships and the new sea in the distance"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-8.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-8.jpg"
+    caption: "Ships waiting in port"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-9.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-9.jpg"
+    caption: "What is left of the lake in 2012"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-10.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-10.jpg"
+    caption: "Monument to the Aral Sea"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-11.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-11.jpg"
+    caption: "Where the sea was in 1960"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-12.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-12.jpg"
+    caption: "Ships waiting in port"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-13.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-13.jpg"
+    caption: "Satellite photos of the Aral Sea"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-14.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-14.jpg"
+    caption: "Entrance to an old factory"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-15.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-15.jpg"
+    caption: "Abandoned factory"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-16.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-16.jpg"
+    caption: "Inside an old factory"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-17.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-17.jpg"
+    caption: "More old factory buildings"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-18.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-18.jpg"
+    caption: "Inside and old factory building"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-19.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-19.jpg"
+    caption: "Old equipment room"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-20.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-20.jpg"
+    caption: "Abandoned building in Moynaq"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-21.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-21.jpg"
+    caption: "Local kids at sunset"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-22.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-22.jpg"
+    caption: "Hotel Oybeck, the only \"hotel\" in Moynaq"
+  - source: "Asia/Uzbekistan/Muynoq/Images/medium-23.jpg"
+    sourceLarge: "Asia/Uzbekistan/Muynoq/Images/large-23.jpg"
+    caption: "Inside the dilapidated Oybeck Hotel"
+videos: []
+sourcePath: "Asia/Uzbekistan/Muynoq/index.shtml"
+---
+
+If you are looking for examples of the helplessness of nature in the face of mankind then Muynaq would be one of the first places you would look. Years ago it used to be an important port city on edge of the Aral Sea, once upon a time when there was water here. Today Muynaq sits at the end of a road to nowhere, surrounded by a sea of desert. Decades of overfishing and irrigation, largely for the growth of cotton, has reduced the sea to a fraction of its size, in fact splitting it into two separate bodies of water, the North and South Aral Sea. What little water remains is inhospitable, containing three times more salt than the oceans. While the fresh waters of the sea remain a distant memory, the town still lingers on, a monument to the destructive powers of humanity.
+
+At the end of the road through town there is still one hotel, long since faded from its past glory, which caters to the trickle of tourist traffic to the area. What once must have been a lively seaside hotel features dilapidated rooms and dark corridors with layer upon layer of desert dust. Near the hotel, on sand which was once the sea floor, lie the rusting hulls of the local fishing fleet, permanently grounded when the lake receded. From the bow of the ships the endless views across the newly created desert stretch to the horizon. This wasteland has altered the local climate, resulting in dust storms and longer, harsher seasons. On top of the bluff a monument has been erected which depicts Muynoq and the Aral Sea in 1960 and in 2012. Satellite photos through the years call attention to the extent of the shrinkage of the sea and a paragraph of information about the collapse of the sea provides information on the receding waters but fails to mention even a single reason for the disaster.
+
+Abandoned factories from the once prominent fishing industry can be found not far away, the equipment rusting and collecting dust amidst the trash and broken glass strewn ground. Even around all this despair there are plenty of signs of life: children play soccer in the streets, a large school still operates, and neighborhood stores can be found in people’s houses. New buildings can also be seen in town, probably the result of government subsidies in an attempt to save this dying town. Whereas fishing used to be the main industry it is now livestock, but that hardly seems capable of supporting such a population. Other attempts to save the town can be seen in the form of a small lake to the south, which offers some amount of fishing but is probably not large enough to prevent any further climate change.
+
+The town tells a sad story, it speaks to how far we have advanced as a society yet also to how little we know. Through years of advancement we have developed the means to change the world around us and bend it to suit our purposes. However, we still fail to see the impact that will have in the complicated and interconnected world ecosystem. Worse, despite all our advances, we lack the power to fully control our natural world so that when we bend it to the point of breaking we cannot reverse our efforts and undo the damage we have done. The end result just may be our own destruction.

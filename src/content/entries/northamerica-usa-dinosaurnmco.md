@@ -1,0 +1,65 @@
+---
+title: "Dinosaur National Monument, CO; USA"
+cityName: "Dinosaur National Monument"
+subtitle: "Canyons and Riverbends"
+continent: "NorthAmerica"
+country: "USA"
+trip: "usa"
+region: "Northwest"
+date: 2016-07-16
+dateLabel: "July 16, 2016"
+coordinates:
+  lat: 40.5166193
+  lng: -108.963593
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Then as it was, then again it will be", "Though the course may change sometimes, rivers always reach the sea"]
+  attribution: "- Led Zeppelin"
+  attributionHref: "https://www.youtube.com/watch?v=v16CxX_2qec"
+photos:
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-1.jpg"
+    caption: "US 40 west of Craig, CO"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-2.jpg"
+    caption: "Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-3.jpg"
+    caption: "Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-4.jpg"
+    caption: "Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-5.jpg"
+    caption: "Harper's Corner, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-6.jpg"
+    caption: "Harper's Corner, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-7.jpg"
+    caption: "Harper's Corner, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-8.jpg"
+    caption: "Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-9.jpg"
+    caption: "Gates of Lodore, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-10.jpg"
+    caption: "Gates of Lodore, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-11.jpg"
+    caption: "The Green River"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-12.jpg"
+    caption: "Gates of Lodore, Dinosaur National Monument"
+  - source: "NorthAmerica/USA/DinosaurNMCO/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/USA/DinosaurNMCO/Images/large-13.jpg"
+    caption: "Backcountry road to the Gates of Lodore"
+videos: []
+linkedPairGroup: "dinosaur-nm-co-ut"
+linkedPairReason: "same date, same monument split across a state line, distinct write-ups -- kept as two cross-linked entries (Andrew's call), not merged"
+sourcePath: "NorthAmerica/USA/DinosaurNMCO/index.shtml"
+---
+
+

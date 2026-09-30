@@ -1,0 +1,317 @@
+{
+  "Andorra": {
+    "continent": "Europe",
+    "flag": "countries/Andorra/flag.png",
+    "stamp": null
+  },
+  "Argentina": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Argentina/flag.png",
+    "stamp": "countries/Argentina/stamp.jpg"
+  },
+  "Armenia": {
+    "continent": "Asia",
+    "flag": "countries/Armenia/flag.png",
+    "stamp": "countries/Armenia/stamp.jpg"
+  },
+  "Australia": {
+    "continent": "SouthPacific",
+    "flag": "countries/Australia/flag.png",
+    "stamp": "countries/Australia/stamp.jpg"
+  },
+  "Austria": {
+    "continent": "Europe",
+    "flag": "countries/Austria/flag.png",
+    "stamp": null
+  },
+  "Azerbaijan": {
+    "continent": "Asia",
+    "flag": "countries/Azerbaijan/flag.png",
+    "stamp": null
+  },
+  "Belize": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Belize/flag.png",
+    "stamp": "countries/Belize/stamp.jpg"
+  },
+  "Bolivia": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Bolivia/flag.png",
+    "stamp": "countries/Bolivia/stamp.jpg"
+  },
+  "Bosnia": {
+    "continent": "Europe",
+    "flag": "countries/Bosnia/flag.png",
+    "stamp": null
+  },
+  "Brazil": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Brazil/flag.png",
+    "stamp": "countries/Brazil/stamp.jpg"
+  },
+  "Bulgaria": {
+    "continent": "Europe",
+    "flag": "countries/Bulgaria/flag.png",
+    "stamp": "countries/Bulgaria/stamp.jpg"
+  },
+  "Canada": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Canada/flag.png",
+    "stamp": "countries/Canada/stamp.jpg"
+  },
+  "Chile": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Chile/flag.png",
+    "stamp": "countries/Chile/stamp.jpg"
+  },
+  "China": {
+    "continent": "Asia",
+    "flag": "countries/China/flag.png",
+    "stamp": "countries/China/stamp.jpg"
+  },
+  "Colombia": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Colombia/flag.png",
+    "stamp": "countries/Colombia/stamp.jpg"
+  },
+  "CostaRica": {
+    "continent": "NorthAmerica",
+    "flag": "countries/CostaRica/flag.png",
+    "stamp": "countries/CostaRica/stamp.jpg"
+  },
+  "Croatia": {
+    "continent": "Europe",
+    "flag": "countries/Croatia/flag.png",
+    "stamp": "countries/Croatia/stamp.jpg"
+  },
+  "Denmark": {
+    "continent": "Europe",
+    "flag": "countries/Denmark/flag.png",
+    "stamp": "countries/Denmark/stamp.jpg"
+  },
+  "DominicanRepublic": {
+    "continent": "NorthAmerica",
+    "flag": "countries/DominicanRepublic/flag.png",
+    "stamp": "countries/DominicanRepublic/stamp.jpg"
+  },
+  "Ecuador": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Ecuador/flag.png",
+    "stamp": "countries/Ecuador/stamp.jpg"
+  },
+  "France": {
+    "continent": "Europe",
+    "flag": "countries/France/flag.png",
+    "stamp": null
+  },
+  "Georgia": {
+    "continent": "Asia",
+    "flag": "countries/Georgia/flag.png",
+    "stamp": "countries/Georgia/stamp.jpg"
+  },
+  "Germany": {
+    "continent": "Europe",
+    "flag": "countries/Germany/flag.png",
+    "stamp": "countries/Germany/stamp.jpg"
+  },
+  "Gibraltar": {
+    "continent": "Europe",
+    "flag": "countries/Gibraltar/flag.png",
+    "stamp": null
+  },
+  "Guatemala": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Guatemala/flag.png",
+    "stamp": "countries/Guatemala/stamp.jpg"
+  },
+  "Guyana": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Guyana/flag.png",
+    "stamp": "countries/Guyana/stamp.jpg"
+  },
+  "Honduras": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Honduras/flag.png",
+    "stamp": "countries/Honduras/stamp.jpg"
+  },
+  "India": {
+    "continent": "Asia",
+    "flag": "countries/India/flag.png",
+    "stamp": "countries/India/stamp.jpg"
+  },
+  "Indonesia": {
+    "continent": "SouthPacific",
+    "flag": "countries/Indonesia/flag.png",
+    "stamp": "countries/Indonesia/stamp.jpg"
+  },
+  "Ireland": {
+    "continent": "Europe",
+    "flag": "countries/Ireland/flag.png",
+    "stamp": "countries/Ireland/stamp.jpg"
+  },
+  "Italy": {
+    "continent": "Europe",
+    "flag": "countries/Italy/flag.png",
+    "stamp": null
+  },
+  "Japan": {
+    "continent": "Asia",
+    "flag": "countries/Japan/flag.png",
+    "stamp": "countries/Japan/stamp.jpg"
+  },
+  "Kazakhstan": {
+    "continent": "Asia",
+    "flag": "countries/Kazakhstan/flag.png",
+    "stamp": "countries/Kazakhstan/stamp.jpg"
+  },
+  "Kosovo": {
+    "continent": "Europe",
+    "flag": "countries/Kosovo/flag.png",
+    "stamp": "countries/Kosovo/stamp.jpg"
+  },
+  "Kyrgyzstan": {
+    "continent": "Asia",
+    "flag": "countries/Kyrgyzstan/flag.png",
+    "stamp": "countries/Kyrgyzstan/stamp.jpg"
+  },
+  "Macedonia": {
+    "continent": "Europe",
+    "flag": "countries/Macedonia/flag.jpg",
+    "stamp": "countries/Macedonia/stamp.jpg"
+  },
+  "Mauritania": {
+    "continent": "Africa",
+    "flag": "countries/Mauritania/flag.png",
+    "stamp": "countries/Mauritania/stamp.jpg"
+  },
+  "Mexico": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Mexico/flag.png",
+    "stamp": "countries/Mexico/stamp.jpg"
+  },
+  "Montenegro": {
+    "continent": "Europe",
+    "flag": "countries/Montenegro/flag.png",
+    "stamp": "countries/Montenegro/stamp.jpg"
+  },
+  "Morocco": {
+    "continent": "Africa",
+    "flag": "countries/Morocco/flag.png",
+    "stamp": "countries/Morocco/stamp.jpg"
+  },
+  "NewZealand": {
+    "continent": "SouthPacific",
+    "flag": "countries/NewZealand/flag.png",
+    "stamp": "countries/NewZealand/stamp.jpg"
+  },
+  "Nicaragua": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Nicaragua/flag.png",
+    "stamp": "countries/Nicaragua/stamp.jpg"
+  },
+  "Panama": {
+    "continent": "NorthAmerica",
+    "flag": "countries/Panama/flag.png",
+    "stamp": "countries/Panama/stamp.jpg"
+  },
+  "Paraguay": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Paraguay/flag.png",
+    "stamp": "countries/Paraguay/stamp.jpg"
+  },
+  "Peru": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Peru/flag.png",
+    "stamp": "countries/Peru/stamp.jpg"
+  },
+  "Philippines": {
+    "continent": "SouthPacific",
+    "flag": "countries/Philippines/flag.png",
+    "stamp": "countries/Philippines/stamp.jpg"
+  },
+  "PuertoRico": {
+    "continent": "NorthAmerica",
+    "flag": "countries/PuertoRico/flag.png",
+    "stamp": null
+  },
+  "Senegal": {
+    "continent": "Africa",
+    "flag": "countries/Senegal/flag.png",
+    "stamp": "countries/Senegal/stamp.jpg"
+  },
+  "Singapore": {
+    "continent": "Asia",
+    "flag": "countries/Singapore/flag.png",
+    "stamp": "countries/Singapore/stamp.jpg"
+  },
+  "Slovenia": {
+    "continent": "Europe",
+    "flag": "countries/Slovenia/flag.png",
+    "stamp": "countries/Slovenia/stamp.jpg"
+  },
+  "SouthKorea": {
+    "continent": "Asia",
+    "flag": "countries/SouthKorea/flag.png",
+    "stamp": "countries/SouthKorea/stamp.jpg"
+  },
+  "Spain": {
+    "continent": "Europe",
+    "flag": "countries/Spain/flag.png",
+    "stamp": "countries/Spain/stamp.jpg"
+  },
+  "SriLanka": {
+    "continent": "Asia",
+    "flag": "countries/SriLanka/flag.png",
+    "stamp": "countries/SriLanka/stamp.jpg"
+  },
+  "Sweden": {
+    "continent": "Europe",
+    "flag": "countries/Sweden/flag.png",
+    "stamp": null
+  },
+  "Taiwan": {
+    "continent": "Asia",
+    "flag": "countries/Taiwan/flag.png",
+    "stamp": "countries/Taiwan/stamp.jpg"
+  },
+  "Tajikistan": {
+    "continent": "Asia",
+    "flag": "countries/Tajikistan/flag.png",
+    "stamp": "countries/Tajikistan/stamp.jpg"
+  },
+  "Turkey": {
+    "continent": "Asia",
+    "flag": "countries/Turkey/flag.png",
+    "stamp": "countries/Turkey/stamp.jpg"
+  },
+  "UK": {
+    "continent": "Europe",
+    "flag": "countries/UK/flag.png",
+    "stamp": "countries/UK/stamp.jpg"
+  },
+  "USA": {
+    "continent": "NorthAmerica",
+    "flag": "countries/USA/flag.png",
+    "stamp": "countries/USA/stamp.jpg"
+  },
+  "Uruguay": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Uruguay/flag.png",
+    "stamp": "countries/Uruguay/stamp.jpg"
+  },
+  "Uzbekistan": {
+    "continent": "Asia",
+    "flag": "countries/Uzbekistan/flag.png",
+    "stamp": "countries/Uzbekistan/stamp.jpg"
+  },
+  "Venezuela": {
+    "continent": "SouthAmerica",
+    "flag": "countries/Venezuela/flag.png",
+    "stamp": "countries/Venezuela/stamp.jpg"
+  },
+  "WesternSahara": {
+    "continent": "Africa",
+    "flag": "countries/WesternSahara/flag.png",
+    "stamp": null
+  }
+}

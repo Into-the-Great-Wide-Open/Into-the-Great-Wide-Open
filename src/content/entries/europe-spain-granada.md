@@ -1,0 +1,68 @@
+---
+title: "Granada, Spain"
+cityName: "Granada"
+subtitle: "The Alhambra"
+continent: "Europe"
+country: "Spain"
+trip: "holidays-in-spain"
+date: 2014-02-08
+dateLabel: "February 8, 2014"
+coordinates:
+  lat: 37.1809462
+  lng: -3.5922032
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["I see the world", "Feel the chill", "Which way to go", "Windowsill", "I see the words", "On a rocking horse of time", "I see the birds in the rain"]
+  attribution: "- Pearl Jam"
+  attributionHref: "https://www.youtube.com/watch?v=GKl8lJDjPR8"
+photos:
+  - source: "Europe/Spain/Granada/Images/medium-1.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-1.jpg"
+    caption: "Colorful plaza near the cathedral"
+  - source: "Europe/Spain/Granada/Images/medium-2.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-2.jpg"
+    caption: "Outside the cathedral"
+  - source: "Europe/Spain/Granada/Images/medium-3.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-3.jpg"
+    caption: "High ceilings inside the cathedral"
+  - source: "Europe/Spain/Granada/Images/medium-4.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-4.jpg"
+    caption: "Beautiful detail in the cathedral"
+  - source: "Europe/Spain/Granada/Images/medium-5.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-5.jpg"
+    caption: "The organs and columns"
+  - source: "Europe/Spain/Granada/Images/medium-6.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-6.jpg"
+    caption: "Detailed wall in the Alhambra"
+  - source: "Europe/Spain/Granada/Images/medium-7.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-7.jpg"
+    caption: "Ceiling in the Alhambra"
+  - source: "Europe/Spain/Granada/Images/medium-8.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-8.jpg"
+    caption: "Walkway in the Alhambra"
+  - source: "Europe/Spain/Granada/Images/medium-9.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-9.jpg"
+    caption: "Fading afternoon sun in the Alhambra"
+  - source: "Europe/Spain/Granada/Images/medium-10.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-10.jpg"
+    caption: "Fountains in El Generalife in the Alhambra"
+  - source: "Europe/Spain/Granada/Images/medium-11.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-11.jpg"
+    caption: "The Alhambra on the hilltop"
+  - source: "Europe/Spain/Granada/Images/medium-12.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-12.jpg"
+    caption: "The old town of Granada"
+  - source: "Europe/Spain/Granada/Images/medium-13.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-13.jpg"
+    caption: "A monastery and the orange trees"
+  - source: "Europe/Spain/Granada/Images/medium-14.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-14.jpg"
+    caption: "Panorama of the cathedral"
+  - source: "Europe/Spain/Granada/Images/medium-15.jpg"
+    sourceLarge: "Europe/Spain/Granada/Images/large-15.jpg"
+    caption: "View of the Alhambra"
+videos: []
+sourcePath: "Europe/Spain/Granada/index.shtml"
+---
+
+

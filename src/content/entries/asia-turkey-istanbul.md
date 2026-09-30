@@ -1,0 +1,127 @@
+---
+title: "Istanbul, Turkey"
+cityName: "Istanbul"
+subtitle: "Across the Bridge to Europe"
+continent: "Asia"
+country: "Turkey"
+trip: "into-the-great-wide-open"
+date: 2012-07-12
+dateLabel: "July 12, 2012"
+coordinates:
+  lat: 41.0053
+  lng: 28.977
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["God it's so painful when something that's so close", "Is still so far out of reach"]
+  attribution: "- Tom Petty"
+  attributionHref: "https://www.youtube.com/watch?v=uNgt7U9QrFQ"
+photos:
+  - source: "Asia/Turkey/Istanbul/Images/medium-1.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-1.jpg"
+    caption: "Minaret of the Blue Mosque"
+  - source: "Asia/Turkey/Istanbul/Images/medium-2.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-2.jpg"
+    caption: "Inside the Blue Mosque"
+  - source: "Asia/Turkey/Istanbul/Images/medium-3.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-3.jpg"
+    caption: "Ceiling of the Blue Mosque"
+  - source: "Asia/Turkey/Istanbul/Images/medium-4.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-4.jpg"
+    caption: "An old cistern"
+  - source: "Asia/Turkey/Istanbul/Images/medium-5.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-5.jpg"
+    caption: "Decorative column in the cistern"
+  - source: "Asia/Turkey/Istanbul/Images/medium-6.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-6.jpg"
+    caption: "Tourists wait in front of Topkapi Palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-7.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-7.jpg"
+    caption: "Istanbul and the walls of the palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-8.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-8.jpg"
+    caption: "Decorative rooms inside Topkapi palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-9.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-9.jpg"
+    caption: "Decorative rooms inside Topkapi palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-10.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-10.jpg"
+    caption: "Stone carving, Topkapi palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-11.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-11.jpg"
+    caption: "Hagia Sophia at night"
+  - source: "Asia/Turkey/Istanbul/Images/medium-12.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-12.jpg"
+    caption: "Stall at the fish market"
+  - source: "Asia/Turkey/Istanbul/Images/medium-13.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-13.jpg"
+    caption: "Fishermen and restaurants on the bridge"
+  - source: "Asia/Turkey/Istanbul/Images/medium-14.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-14.jpg"
+    caption: "Tourists admiring Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-15.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-15.jpg"
+    caption: "Main gate of Istanbul University"
+  - source: "Asia/Turkey/Istanbul/Images/medium-16.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-16.jpg"
+    caption: "Need buttons?"
+  - source: "Asia/Turkey/Istanbul/Images/medium-17.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-17.jpg"
+    caption: "Stall at the Spice Bazaar"
+  - source: "Asia/Turkey/Istanbul/Images/medium-18.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-18.jpg"
+    caption: "Dolmabahce Palace gate"
+  - source: "Asia/Turkey/Istanbul/Images/medium-19.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-19.jpg"
+    caption: "Crystal Staircase, Dolmabahce Palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-20.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-20.jpg"
+    caption: "Ivory furnishing, Dolmabahce Palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-21.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-21.jpg"
+    caption: "Main building, Dolmabahce Palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-22.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-22.jpg"
+    caption: "Flowers and gate, Dolmabahce Palace"
+  - source: "Asia/Turkey/Istanbul/Images/medium-23.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-23.jpg"
+    caption: "Hagia Sophia from the upper gallery"
+  - source: "Asia/Turkey/Istanbul/Images/medium-24.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-24.jpg"
+    caption: "Mosaic in Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-25.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-25.jpg"
+    caption: "Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-26.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-26.jpg"
+    caption: "Ceiling, Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-27.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-27.jpg"
+    caption: "Altar, Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-28.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-28.jpg"
+    caption: "Archway, Hagia Sophia"
+  - source: "Asia/Turkey/Istanbul/Images/medium-29.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-29.jpg"
+    caption: "Crowded pedestrian walkway near Taksim Place"
+  - source: "Asia/Turkey/Istanbul/Images/medium-30.jpg"
+    sourceLarge: "Asia/Turkey/Istanbul/Images/large-30.jpg"
+    caption: "Suleymaniye Mosque and boat restaurants on the water"
+videos:
+  - src: "https://www.youtube.com/embed/z_p_jmhGz5M?rel=0"
+    caption: null
+  - src: "https://www.youtube.com/embed/78uE9XiT95g?rel=0"
+    caption: null
+sourcePath: "Asia/Turkey/Istanbul/index.shtml"
+---
+
+When I tell people I traveled here all the way from China many ask me if Turkey is really where the East meets the West. I suppose that is its reputation, something of a bridge, both figuratively and literally, between Europe and Asia. But to me it doesn’t feel that way, especially not in Istanbul. In Istanbul more so than elsewhere in Turkey the West has already arrived and moved far beyond the Bosporus Strait.
+
+Istanbul feels a lot like Europe and here in July, it seems like half of Europe is actually here. Hordes of tourists wait in long lines in the blinding summer sun and pay European prices to see palaces and ruins. In the tourist areas it is hard to walk down the streets without people trying to sell you tours or get you to visit their stores. There are modern trains, big cars, traffic jams, and smog. There are McDonald’s, Burger King, even Arby’s and Popeye’s. You can always tell how Western a place is by the number of different fast food chains. There are police, ambulances, trash collectors, fire trucks and every other city service.
+
+But it is more than those usual touches of civilization and society that make it feel familiar. There are men in shorts and pants aside women in chadors and hijabs or dresses and high heels. There are tea houses and Turkish baths and alcohol. It is secular but the landscape is dotted with mosques and prayer calls fill the air throughout the day and evening. All this exists together in ways unlike in eastern Turkey, a much more conservative society.
+
+None of it feels Eastern though; at least not like the East that I arrived from. That East ceased to be short of the Caspian Sea shores of Kazakhstan. Turkey and Istanbul feel like a blend between the West and the Middle East. Maybe it is the higher than usual number of Arab tourists; with the conflicts in Syria, Egypt, and Libya, they seem to be focused on Turkey more than ever before. Maybe it is the growing presence of Islam here, possibly shown in the outcome of recent elections.
+
+Sitting on a ferry, looking at the bays and rolling hills blanketed with houses and smog, I was reminded how similar the city seemed to Sydney, Australia. That is if Sydney was 1500 years older, predominantly Muslim, and filled with three times as many people. It feels just as modern to me but the density of life and the years of history give it a much more chaotic feeling. That chaotic feeling is probably what causes people to call it a mixture of the East and the West, but I don’t think that is correct. Maybe it used to be true fifty years ago, but not anymore.
+
+Turkey is a lot of things and in many ways Istanbul represents all of that. Istanbul is the way Turkey wants to be seen, and with most of the tourists I think that is how it is perceived. This becomes important considering Turkey’s bid to become the next piece of the European Union puzzle. But Turkey isn’t all Istanbul. Unfortunately for Turkey its eastern provinces border Iraq, Iran, Syria, Armenia, Azerbaijan, and Georgia; regions far too foreign and threatening to be that close to the EU. All this may be irrelevant in a few years anyway as there may be no European Union and a booming Turkey might be better off standing alone, shaping its own future, whichever direction that may lead.

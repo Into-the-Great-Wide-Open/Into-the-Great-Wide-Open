@@ -1,0 +1,128 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countryDisplayName } from '../../lib/countryNames';
+import { getCountryImages } from '../../lib/countryImages';
+import { tryResolveImage } from '../../lib/images';
+import CountryMap from '../../components/CountryMap.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries');
+  const countries = [...new Set(entries.map((e) => e.data.country))];
+  return countries.map((country) => ({ params: { country } }));
+}
+
+const { country } = Astro.params as { country: string };
+
+const allEntries = await getCollection('entries');
+const stops = allEntries
+  .filter((e) => e.data.country === country)
+  .sort((a, b) => (a.data.date?.getTime() ?? 0) - (b.data.date?.getTime() ?? 0));
+
+const trips = await getCollection('trips');
+const tripSlugs = [...new Set(stops.map((e) => e.data.trip))];
+const tripBadges = tripSlugs
+  .map((slug) => trips.find((t) => t.data.slug === slug))
+  .filter((t): t is NonNullable<typeof t> => Boolean(t));
+
+const images = getCountryImages()[country];
+const displayName = countryDisplayName(country);
+// Not getEntry(): the glob loader's default id is a lowercased slug of the
+// filename (e.g. "CostaRica.md" -> id "costarica"), which never matches the
+// exact-case `country` value used everywhere else on the site. Matching on
+// the frontmatter `country` field directly sidesteps that entirely.
+const allCountries = await getCollection('countries');
+const countryInfo = allCountries.find((c) => c.data.country === country);
+const lyric = countryInfo?.data.lyric;
+
+const mapStops = stops
+  .filter((e) => e.data.coordinates)
+  .map((e) => ({
+    id: e.id,
+    cityName: e.data.cityName,
+    lat: e.data.coordinates!.lat,
+    lng: e.data.coordinates!.lng,
+  }));
+
+const flagImg = tryResolveImage(images?.flag);
+const stampImg = tryResolveImage(images?.stamp);
+
+const stopCards = stops.map((entry) => ({
+  entry,
+  heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge),
+}));
+---
+
+<BaseLayout
+  title={displayName}
+  description={`${stops.length} ${stops.length === 1 ? 'entry' : 'entries'} in ${displayName}.`}
+>
+  <div class="container" data-pagefind-body>
+    <span hidden data-pagefind-meta={`place:${displayName}`}></span>
+
+    {tripBadges.length > 0 && (
+      <div class="country-badges">
+        {tripBadges.map((trip) => (
+          <a class="tag" href={`/trips/${trip.data.slug}`}>{trip.data.name}</a>
+        ))}
+      </div>
+    )}
+
+    <h1 style="margin-top: 0.75rem;">{displayName}</h1>
+    <p class="meta">{stops.length} {stops.length === 1 ? 'entry' : 'entries'}</p>
+
+    {lyric && (
+      <div class="lyric">
+        {lyric.lines.map((line) => <p>{line}</p>)}
+        {lyric.attribution && (
+          <cite>
+            {lyric.attributionHref ? (
+              <a href={lyric.attributionHref} target="_blank" rel="noopener">{lyric.attribution}</a>
+            ) : (
+              lyric.attribution
+            )}
+          </cite>
+        )}
+      </div>
+    )}
+
+    {(flagImg || stampImg) && (
+      <div class="country-artifacts">
+        {flagImg && (
+          <Image
+            class="country-flag"
+            src={flagImg}
+            alt={`${displayName} flag`}
+            data-pagefind-meta="image[src]"
+          />
+        )}
+        {stampImg && <Image class="country-stamp" src={stampImg} alt="Passport stamp" />}
+      </div>
+    )}
+
+    {mapStops.length > 0 && (
+      <>
+        <h2 class="section-heading">Route</h2>
+        <CountryMap stops={mapStops} />
+      </>
+    )}
+
+    <h2 class="section-heading">Stops</h2>
+    <div class="grid photo-cards photo-cards-small">
+      {stopCards.map(({ entry, heroImg }) => (
+        <a class="photo-card" href={`/entries/${entry.id}`}>
+          {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>{entry.data.cityName}</h3>
+            <p class="meta">{entry.data.dateRangeLabel ?? entry.data.dateLabel}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

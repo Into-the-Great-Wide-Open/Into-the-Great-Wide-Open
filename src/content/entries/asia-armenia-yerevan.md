@@ -1,0 +1,127 @@
+---
+title: "Yerevan, Armenia"
+cityName: "Yerevan"
+subtitle: "Between a Rock and a Hard Place"
+continent: "Asia"
+country: "Armenia"
+trip: "into-the-great-wide-open"
+date: 2012-06-23
+dateLabel: "June 23, 2012"
+coordinates:
+  lat: 40.1833
+  lng: 44.5167
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["In the clearing stands a boxer", "And a fighter by his trade", "And he carries the reminders", "Of every glove that laid him down", "And cut him till he cried out", "In his anger and his shame,", "\"I am leaving, I am leaving.\"", "But the fighter still remains"]
+  attribution: "- Simon and Garfunkel"
+  attributionHref: "https://www.youtube.com/watch?v=OoFBQ7O3YBk"
+photos:
+  - source: "Asia/Armenia/Yerevan/Images/medium-1.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-1.jpg"
+    caption: "Statue in front of the Opera House"
+  - source: "Asia/Armenia/Yerevan/Images/medium-2.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-2.jpg"
+    caption: "Hanrepetutyan Hraparak and fountain show at night"
+  - source: "Asia/Armenia/Yerevan/Images/medium-3.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-3.jpg"
+    caption: "Boat sculpture in front of modern unfinished buildings"
+  - source: "Asia/Armenia/Yerevan/Images/medium-4.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-4.jpg"
+    caption: "View of Yerevan from above the Cascade"
+  - source: "Asia/Armenia/Yerevan/Images/medium-5.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-5.jpg"
+    caption: "Lion scultpure"
+  - source: "Asia/Armenia/Yerevan/Images/medium-6.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-6.jpg"
+    caption: "Opera House from the Cascade"
+  - source: "Asia/Armenia/Yerevan/Images/medium-7.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-7.jpg"
+    caption: "The Cascade"
+  - source: "Asia/Armenia/Yerevan/Images/medium-8.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-8.jpg"
+    caption: "Guitar sculpture"
+  - source: "Asia/Armenia/Yerevan/Images/medium-9.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-9.jpg"
+    caption: "National Art Gallery and History Museum"
+  - source: "Asia/Armenia/Yerevan/Images/medium-10.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-10.jpg"
+    caption: "Hanrepetutyan Hraparak at daytime"
+  - source: "Asia/Armenia/Yerevan/Images/medium-11.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-11.jpg"
+    caption: "Old cuneiform writing on a stone tablet"
+  - source: "Asia/Armenia/Yerevan/Images/medium-12.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-12.jpg"
+    caption: "Decorative book cover"
+  - source: "Asia/Armenia/Yerevan/Images/medium-13.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-13.jpg"
+    caption: "Numbers from the Armenian Genocide"
+  - source: "Asia/Armenia/Yerevan/Images/medium-14.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-14.jpg"
+    caption: "French newspaper cover of the Armenian Genocide"
+  - source: "Asia/Armenia/Yerevan/Images/medium-15.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-15.jpg"
+    caption: "City of Van before and after Armenian pogrom"
+  - source: "Asia/Armenia/Yerevan/Images/medium-16.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-16.jpg"
+    caption: "Armenian Genocide memorial"
+  - source: "Asia/Armenia/Yerevan/Images/medium-17.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-17.jpg"
+    caption: "Armenian Genocide memorial"
+  - source: "Asia/Armenia/Yerevan/Images/medium-18.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-18.jpg"
+    caption: "Armenian Genocide memorial"
+  - source: "Asia/Armenia/Yerevan/Images/medium-19.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-19.jpg"
+    caption: "Ararat Cognac Factory"
+  - source: "Asia/Armenia/Yerevan/Images/medium-20.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-20.jpg"
+    caption: "Stadium and aqueduct in the valley"
+  - source: "Asia/Armenia/Yerevan/Images/medium-21.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-21.jpg"
+    caption: "Pedestrian walkway in the early evening"
+  - source: "Asia/Armenia/Yerevan/Images/medium-22.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-22.jpg"
+    caption: "Khor Virap and Mt. Ararat"
+  - source: "Asia/Armenia/Yerevan/Images/medium-23.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-23.jpg"
+    caption: "Khor Virap"
+  - source: "Asia/Armenia/Yerevan/Images/medium-24.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-24.jpg"
+    caption: "Big and Little Mt. Ararat"
+  - source: "Asia/Armenia/Yerevan/Images/medium-25.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-25.jpg"
+    caption: "Cemetary and prayer flags"
+  - source: "Asia/Armenia/Yerevan/Images/medium-26.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-26.jpg"
+    caption: "Panorama of Khor Virap"
+  - source: "Asia/Armenia/Yerevan/Images/medium-27.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-27.jpg"
+    caption: "Prayer session inside Khor Virap"
+  - source: "Asia/Armenia/Yerevan/Images/medium-28.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-28.jpg"
+    caption: "Prayer candles at Khor Virap"
+  - source: "Asia/Armenia/Yerevan/Images/medium-29.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-29.jpg"
+    caption: "Dungeon chamber in Khor Virap"
+  - source: "Asia/Armenia/Yerevan/Images/medium-30.jpg"
+    sourceLarge: "Asia/Armenia/Yerevan/Images/large-30.jpg"
+    caption: "Fountain outside a metro station"
+videos:
+  - src: "https://www.youtube.com/embed/VMx1sI2_dkg?rel=0"
+    caption: null
+  - src: "https://www.youtube.com/embed/pqWOqHx12Lk?rel=0"
+    caption: null
+sourcePath: "Asia/Armenia/Yerevan/index.shtml"
+---
+
+Armenia sits, rather precariously, between a rock and a hard place. To the west is Turkey where diplomatic relations have been almost non-existent and the land border has been closed since 1993. To the east is Azerbaijan where the border has remained closed since the brutal Nagorno-Karabakh war in the early 1990s. Pinned in on those two sides leaves only a small border with Iran to the south and Georgia to the north. At least relations with those two countries are cordial. Wealthy Iranians visit Armenia to experience some of the freedoms not afforded to them by their own government and tourism between Armenia and Georgia is growing, though a healthy but somewhat one sided rivalry exists between the two.
+
+Yerevan, the capital of Armenia, is something unique and unexpected, a modern progressive city with a recent facelift courtesy of Armenian money from abroad and development at home. New buildings with foreign stores and fashion names line a main pedestrian avenue that leads to a large open square, which could be found in any European city. At night the square is packed with people as a water show unfolds under a canopy of light and sound. An enormous staircase called the Cascade leads up the hillside and features famous sculptures from artists such as Botero, fountains, flowers, and other art galleries, all due to the generous multimillion dollar philanthropic donations from Gerard Cafesjian . And construction isn’t even complete around part of this area as the open pits and cranes attest to, though from the rust it appears that it may never be completed.
+
+Every evening the streets are alive with people strolling around, outdoor concerts by the opera house, and packed cafes. The women especially are very fashionably dressed, sometimes overly so, with strong dark features that give them an exotic look. The sheer abundance of people creates a vibrant atmosphere that sets the city apart from Tbilisi, for example. The cryptic Armenian lettering is everywhere and you hear Armenian almost exclusively but so many people speak English that moving around is simple. With all the western touches to the city it is a very comfortable place to be.
+
+That comfort masks the turbulent history and present day relations of the country. The land of Armenia has long been under the rule of past empires. At its height, the Kingdom of Armenia stretched from the Caspian Sea all the way to the Mediterranean. In more recent history the territory was fought over by the Ottoman, Persian, and Soviet empires. Evidence of this age old history can be seen in the numerous churches and monasteries dotting the countryside. Just outside Yerevan is Khor Virap where religious buildings have existed since the 6th century. The beautiful site is nearly on the Turkish border at the base of Mt. Ararat and its snow covered peak. In the monastery is a deep dungeon where St. Gregory the Illuminator was kept for 12 years, a dismal fate that he somehow survived. Being so close to Turkey was strange considering the current state of affairs between the countries.
+
+The present day conflict with Turkey stems from the debate over the Armenian Genocide. A monument and museum on the edge of the city commemorates the deportation and deaths of between 600,000 to over 1,500,000 Armenians from Turkey. Armenia claims that the Turkish government gave orders for the Armenians to be executed after they were forced from their homes, a clear act of genocide aimed to annihilate the Armenian population. Turkey claims that no such orders were given and the deaths of the people, from whatever means they occurred, are therefore not considered genocide. To date, Turkey has not acknowledged the genocide despite the fact that multiple countries have recognized the events as genocide. The United States, for fear of angering its ally Turkey has delicately sidestepped the issue and not conclusively named it genocide. Thus there is a revolving door of denials and accusations that leads to perpetuity of these poor relations.
+
+The key result of these tragic events was the Armenian Diaspora, a dispersal of Armenians around the world, leading to sizeable populations in about a dozen countries. In fact the number of Armenians living outside of Armenia is roughly double the number living inside its boundaries. If all this sounds complicated, it is only one side of the problems that Armenia faces. On its eastern frontier a long standing conflict with Azerbaijan exists over the area of Nagorno-Karabakh, the bizarre case of a de facto republic recognized by no foreign country, on occupied Azerbaijan land, accessible only through Armenia; and my next destination.

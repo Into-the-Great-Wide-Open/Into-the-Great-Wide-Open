@@ -1,0 +1,66 @@
+---
+title: "North Oregon Coast, OR; USA"
+cityName: "North Oregon Coast"
+subtitle: "The Rugged Coast I"
+continent: "NorthAmerica"
+country: "USA"
+trip: "usa"
+region: "Northwest"
+date: 2017-07-01
+dateLabel: "July 1, 2017"
+coordinates:
+  lat: 45.8815667
+  lng: -123.9516793
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Oh, I await the day", "Good fortune comes our way", "And we ride down the Kings Highway"]
+  attribution: "- Tom Petty"
+  attributionHref: "https://www.youtube.com/watch?v=OdqDeBzqlP0"
+photos:
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-1.jpg"
+    caption: "Bridge across the Columbia River to Astoria"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-2.jpg"
+    caption: "Courthouse in Astoria"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-3.jpg"
+    caption: "Oregon Film Museum, Astoria"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-4.jpg"
+    caption: "Historic house in Astoria"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-5.jpg"
+    caption: "Main street, Astoria"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-6.jpg"
+    caption: "Wall mural, Seaside"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-7.jpg"
+    caption: "The beach at Seaside"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-8.jpg"
+    caption: "Cannon Beach"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-9.jpg"
+    caption: "Cannon Beach"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-10.jpg"
+    caption: "Coastline along the 101"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-11.jpg"
+    caption: "Sand dune on the beach at Pacific City"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-12.jpg"
+    caption: "View from Cape Lookout State Park"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-13.jpg"
+    caption: "Yaquina Head Lighthouse"
+  - source: "NorthAmerica/USA/NorthOregon/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/USA/NorthOregon/Images/large-14.jpg"
+    caption: "Bridge across Yaquina Bay"
+videos: []
+sourcePath: "NorthAmerica/USA/NorthOregon/index.shtml"
+---
+
+

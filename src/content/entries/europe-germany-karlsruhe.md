@@ -1,0 +1,65 @@
+---
+title: "Karlsruhe, Germany"
+cityName: "Karlsruhe"
+subtitle: "A University Town"
+continent: "Europe"
+country: "Germany"
+trip: "holidays-in-spain"
+date: 2009-08-27
+dateLabel: "August 27, 2009"
+coordinates:
+  lat: 49.0158491
+  lng: 8.4095339
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Who knows how long this will last", "Now we've come so far, so fast", "But, somewhere back there in the dust", "That same small town is in each of us"]
+  attribution: "- Don Henley"
+  attributionHref: "https://www.youtube.com/watch?v=a08OY9tOGiE"
+photos:
+  - source: "Europe/Germany/Karlsruhe/Images/medium-1.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-1.jpg"
+    caption: "Fountains and flowers along a main street"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-2.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-2.jpg"
+    caption: "Old buildings in a busy plaza"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-3.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-3.jpg"
+    caption: "An old statue"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-4.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-4.jpg"
+    caption: "The Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-5.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-5.jpg"
+    caption: "The Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-6.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-6.jpg"
+    caption: "The Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-7.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-7.jpg"
+    caption: "The Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-8.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-8.jpg"
+    caption: "Large grass area behind the Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-9.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-9.jpg"
+    caption: "The Schloss from across the lake"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-10.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-10.jpg"
+    caption: "Ceramic tiles leading towards the Schloss"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-11.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-11.jpg"
+    caption: "The gardens in the city park"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-12.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-12.jpg"
+    caption: "A castle style building in the city park"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-13.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-13.jpg"
+    caption: "A fountain and some more foliage"
+  - source: "Europe/Germany/Karlsruhe/Images/medium-14.jpg"
+    sourceLarge: "Europe/Germany/Karlsruhe/Images/large-14.jpg"
+    caption: "The coolest tree ever - and it is only one tree!"
+videos: []
+sourcePath: "Europe/Germany/Karlsruhe/index.shtml"
+---
+
+

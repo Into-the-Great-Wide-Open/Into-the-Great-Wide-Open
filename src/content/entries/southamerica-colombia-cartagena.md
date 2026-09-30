@@ -1,0 +1,88 @@
+---
+title: "Cartagena, Colombia"
+cityName: "Cartagena"
+subtitle: "Inside the Walled City"
+continent: "SouthAmerica"
+country: "Colombia"
+trip: "southward-bound"
+date: 2007-12-16
+dateLabel: "December 16, 2007"
+coordinates:
+  lat: 10.39972
+  lng: -75.51444
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["Don't forget your history", "Know your destiny"]
+  attribution: "- Bob Marley"
+  attributionHref: "https://www.youtube.com/watch?v=dCE3Ge4bCLk"
+photos:
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-1.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-1.jpg"
+    caption: "Castillo San Felipe de Barajas"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-2.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-2.jpg"
+    caption: "Castillo San Felipe de Barajas"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-3.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-3.jpg"
+    caption: "On top of the fortress looking toward the old city"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-4.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-4.jpg"
+    caption: "The fortress and some of the newer parts of the city"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-5.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-5.jpg"
+    caption: "Stairs up to the top of the fortress"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-6.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-6.jpg"
+    caption: "A cannon sights the highrise buildings"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-7.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-7.jpg"
+    caption: "Castillo San Felipe de Barajas"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-8.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-8.jpg"
+    caption: "An old abandoned theater"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-9.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-9.jpg"
+    caption: "An old abandoned theater"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-10.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-10.jpg"
+    caption: "The walls of the old city"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-11.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-11.jpg"
+    caption: "Nice place for a soccer field"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-12.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-12.jpg"
+    caption: "A colorful walkway in the afternoon sun"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-13.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-13.jpg"
+    caption: "Facade of a church"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-14.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-14.jpg"
+    caption: "The streets of the Old City"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-15.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-15.jpg"
+    caption: "A church in the Old City"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-16.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-16.jpg"
+    caption: "Artefacts from the museum"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-17.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-17.jpg"
+    caption: "Colorful buildings in the Old City"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-18.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-18.jpg"
+    caption: "The main gate to the Old City"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-19.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-19.jpg"
+    caption: "Old City at night"
+  - source: "SouthAmerica/Colombia/Cartagena/Images/medium-20.jpg"
+    sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-20.jpg"
+    caption: "Old City at night"
+videos: []
+keptSeparateReason: "different trip (Southward Bound) from Cartagena2 (Other Travels)"
+sourcePath: "SouthAmerica/Colombia/Cartagena/index.shtml"
+---
+
+Cartagena is a very beautiful city. The old city is enclosed in thick walls and protected by several fortresses with walls up to 40 feet thick and 40 feet high. The huge fortress overlooking the city on the hilltop is quite impressive with a labyrinth of passageways inside the walls of the fort and great views over the city and ocean. In the distance the traditional old city adjoins the new city of modern high-rise condos and a fancy harbor. The old city is very charming with narrow streets and old crumbling buildings mixed in with well-restored buildings. It has a great vibrant feel to it with so much happening on the streets, as street vendors sell all sorts of food, drink, and goods.
+
+While the historic center is very touristy and there are lots of people trying to sell you things, most people seem very friendly and overall it seems very safe, even at night, despite the fact that the age and deterioration of the buildings may be unsettling. Despite this, it was somewhat strange to see the restocking of an ATM on the main street that was done with handguns and shotguns drawn and ready, even though the guards were only moving about 30 feet. Speaking of money, with the current exchange rates of about 2000 pesos to the dollar, I am literally a millionaire here. I guess there is a first for everything, and I hope it won´t be the last time. The prices of goods vary widely, some things are really cheap, a good meal at a local place including soup, fruit juice drink, and a plate of rice, beans, and meat is about $2-3, and most street food is under $1. Other foods are priced similarly as in the USA. A 600mL coke is about 1400 pesos. One oddity is the number of drinks you can buy in a plastic bag, they sell water and various fruit juices all sold in bags that a straw can easily be popped into for a quick drink serving. Not the most environmentally friendly but it is cheap and portable.
+
+Unfortunately, being on the Caribbean, it is oppressively hot and humid here, to the point where you don´t want to move around during the middle of the day. Regardless of the time of day, of course I stand out tremendously when walking around as I am about a foot taller and hundred shades whiter than most of the people. The communication is still mostly a one-way street as it is really hard for me to understand the flurry of Spanish when people speak to me. I´m sure that this will improve but for now I´ll just have to get used to it. Tomorrow I think I will be moving on to Santa Marta, a few hours by bus up the coast, where I will hopefully be able to join a trek to the Lost City, deep in the Colombian jungle.

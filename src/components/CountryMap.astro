@@ -1,0 +1,125 @@
+---
+import 'leaflet/dist/leaflet.css';
+
+// Shared stops map, used for country pages, trip pages, and now the
+// homepage hero + /map (multi-route mode via the `routes` prop). Kept as
+// one component/file name (CountryMap.astro) since every page needs the
+// exact same Leaflet-on-OpenStreetMap setup — see design-brief.md's
+// "Tech stack" section for why Leaflet was picked, and "Homepage/`/map`
+// route map" for the multi-route addition.
+
+interface Stop {
+  id: string;
+  cityName: string;
+  lat: number;
+  lng: number;
+}
+
+interface RouteLayer {
+  stops: Stop[];
+  // When set, this layer's stops (assumed already in the order to connect —
+  // chronological) get a dashed line in this color. Omit/null for a
+  // markers-only layer (e.g. "everything else, scattered pins").
+  routeColor?: 'Pine' | 'Slate' | 'Clay' | null;
+}
+
+interface Props {
+  // Single-layer mode (country/trip pages): a flat stop list, optionally
+  // with one route line.
+  stops?: Stop[];
+  routeColor?: 'Pine' | 'Slate' | 'Clay' | null;
+  // Multi-layer mode (homepage hero, /map): several independently-colored
+  // layers on one map. Takes precedence over stops/routeColor if both given.
+  routes?: RouteLayer[];
+  // Fixed map height in px. Defaults to 340 (the country/trip-page size).
+  height?: number;
+}
+
+const ROUTE_COLORS: Record<string, string> = {
+  Pine: '#33503E',
+  Slate: '#4C6B78',
+  Clay: '#A8663D',
+};
+
+const { stops, routeColor, routes, height } = Astro.props;
+
+const layers = routes ?? (stops ? [{ stops, routeColor }] : []);
+const layersForClient = layers.map((layer) => ({
+  stops: layer.stops,
+  color: layer.routeColor ? ROUTE_COLORS[layer.routeColor] : null,
+}));
+const totalStops = layers.reduce((sum, layer) => sum + layer.stops.length, 0);
+---
+
+{totalStops > 0 && (
+  <div
+    class="country-map"
+    data-layers={JSON.stringify(layersForClient)}
+    style={height ? `height: ${height}px;` : undefined}
+  ></div>
+)}
+
+<script>
+  import L from 'leaflet';
+
+  interface Stop {
+    id: string;
+    cityName: string;
+    lat: number;
+    lng: number;
+  }
+
+  interface Layer {
+    stops: Stop[];
+    color: string | null;
+  }
+
+  function initMap(el: HTMLElement) {
+    const layers: Layer[] = JSON.parse(el.dataset.layers || '[]');
+    const allPoints: [number, number][] = [];
+    if (layers.every((l) => l.stops.length === 0)) return;
+
+    const map = L.map(el, { scrollWheelZoom: false });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+
+    const icon = L.divIcon({
+      className: 'map-marker',
+      html: '<span></span>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -8],
+    });
+
+    for (const layer of layers) {
+      const points: [number, number][] = [];
+      for (const stop of layer.stops) {
+        points.push([stop.lat, stop.lng]);
+        allPoints.push([stop.lat, stop.lng]);
+        L.marker([stop.lat, stop.lng], { icon })
+          .addTo(map)
+          .bindPopup(`<a href="/entries/${stop.id}">${stop.cityName}</a>`);
+      }
+
+      if (layer.color && points.length > 1) {
+        L.polyline(points, {
+          color: layer.color,
+          weight: 2,
+          opacity: 0.8,
+          dashArray: '6 8',
+        }).addTo(map);
+      }
+    }
+
+    if (allPoints.length === 1) {
+      map.setView(allPoints[0], 9);
+    } else {
+      map.fitBounds(L.latLngBounds(allPoints), { padding: [28, 28] });
+    }
+  }
+
+  document.querySelectorAll<HTMLElement>('.country-map').forEach(initMap);
+</script>

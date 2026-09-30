@@ -1,0 +1,98 @@
+---
+title: "Bukhara, Uzbekistan"
+cityName: "Bukhara"
+subtitle: "Another Ancient City"
+continent: "Asia"
+country: "Uzbekistan"
+trip: "into-the-great-wide-open"
+date: 2012-06-05
+dateLabel: "June 5, 2012"
+coordinates:
+  lat: 39.7747222
+  lng: 64.4286111
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["Today is the greatest day I've ever known", "Can't wait for tomorrow", "I might not have that long"]
+  attribution: "- Smashing Pumpkins"
+  attributionHref: "https://www.youtube.com/watch?v=xmUZ6nCFNoU"
+photos:
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-1.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-1.jpg"
+    caption: "View of the center of the old city"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-2.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-2.jpg"
+    caption: "The entrance to the Ark"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-3.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-3.jpg"
+    caption: "Abdul Aziz Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-4.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-4.jpg"
+    caption: "Uzbek tourists in front of the statue"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-5.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-5.jpg"
+    caption: "Green lights and the moon at the Nadir Divanbeggi Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-6.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-6.jpg"
+    caption: "Looking into the courtyard of the Kalon Mosque"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-7.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-7.jpg"
+    caption: "Old man walking down the street"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-8.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-8.jpg"
+    caption: "Ceiling inside Abdulla Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-9.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-9.jpg"
+    caption: "Ceiling inside of a dome at the Abdulla Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-10.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-10.jpg"
+    caption: "Courtyard of the Abdulla Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-11.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-11.jpg"
+    caption: "The Modari Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-12.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-12.jpg"
+    caption: "Stairway to the roof in the Abdulla Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-13.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-13.jpg"
+    caption: "Carnival ride in Samani Park"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-14.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-14.jpg"
+    caption: "Ismail Samani Mausoleum and ferris wheel from Samani Park"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-15.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-15.jpg"
+    caption: "Bolo-Hauz Mosque"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-16.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-16.jpg"
+    caption: "The Bug Pit where prisoners were thrown in with scorpions and other creatures"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-17.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-17.jpg"
+    caption: "Kalon Minaret and Mosque"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-18.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-18.jpg"
+    caption: "Colorful tile above the doorway to the Abdul Aziz Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-19.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-19.jpg"
+    caption: "Ceiling inside the Abdul Aziz Khan Medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-20.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-20.jpg"
+    caption: "Courtyard of an abandoned medressa"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-21.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-21.jpg"
+    caption: "Locals playing soccer by the walls of the Ark at dusk"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-22.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-22.jpg"
+    caption: "Mir-I-Arab Medressa at sunset"
+  - source: "Asia/Uzbekistan/Bukhara/Images/medium-23.jpg"
+    sourceLarge: "Asia/Uzbekistan/Bukhara/Images/large-23.jpg"
+    caption: "Mir-I-Arab Medressa at sunset"
+videos: []
+sourcePath: "Asia/Uzbekistan/Bukhara/index.shtml"
+---
+
+Leaving the over-touristy confines of Samarkand behind, I made my way to Bukhara, another of the three main tourist hotspots in Uzbekistan. Fortunately this route was served by the relatively fast daily train that shuttles between Tashkent, Samarkand, and Bukhara. This meant no haggling with shared taxi drivers and waiting for people to show up in order to fill the car. I still ended up waiting as the train showed up around an hour late, but there was no haggling. Instead that had to wait until I arrived in Bukhara and was besieged by taxi drivers wanting to take me to the old city. When I told them I would take the minibus they said there wasn’t one; when I told them I could see it just over there they said it wasn’t running. As I kept walking and ignoring them they slowly dropped away and the bus ended up costing me one tenth as much to get to the old city.
+
+Within a few minutes of walking in the old city I was much happier with it than Samarkand, despite the oppressive heat in the late afternoon with temperatures around 45C. While Samarkand has spectacular buildings, they tend to be surrounded with new tourist strip malls that, with their modern design, stick out obtrusively from the ancient artifacts around them. At least in Bukhara the same souvenir shops and mini-markets occupy old or merely old-looking buildings. It might not seem like much but it makes a huge difference. Fewer tourists also make a difference. Perhaps many people stay away because of the scorching mid-day heat, there are still tour buses full of tourists from all around the world but the old city does not seem to be overrun with them.
+
+What impressed me the most was walking through the old city in the late afternoon and early evening; the setting sun casts a deep orange glow on the reconstructed tile work of the ancient buildings and the mostly empty streets are peaceful and quiet. In those moments you get the impression of what it must have felt like to walk through those same dirt streets hundreds of years ago. Unfortunately, most of the old buildings have been extensively renovated and seem quite new but a few of the buildings have not been restored. In these you can climb up steep, narrow, winding staircases to access the upper levels and the roof for a different perspective on the courtyards and the city below.
+
+Wandering through the labyrinth of back streets you are given a virtual tour through history. While the guide books clearly note the primary attractions, they fail to mention many of the hidden ones behind them. The old city is littered with madrassas from the 17th, 18th, and 19th centuries that seem to have fallen into disrepair and are no longer used. Their faded carved doors are padlocked but occasionally, through cracks in the wood or damaged door frames you can glimpse inside to the courtyards and see overgrown weeds and ruined archways telling stories of past glory. Here in Bukhara, a key to the city would be a key to the ages.

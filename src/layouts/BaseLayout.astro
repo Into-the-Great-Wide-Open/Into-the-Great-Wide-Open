@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'A travel blog.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Into the Great Wide Open</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="wordmark" href="/">
+        <!--
+          The confirmed logo mark (see design-brief.md's "Logo" section): a
+          single open mountain-peak outline with three tiered sequoia trees
+          nested low inside it. Horizontal lockup — icon left, two-line
+          tracked wordmark right — since the nav is a horizontal bar.
+          stroke="currentColor" so the peak follows .wordmark's own text
+          color (Ink here); the trees stay a fixed Pine, same as everywhere
+          else the mark appears.
+        -->
+        <svg class="wordmark-icon" width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+          <polyline points="10,80 50,15 90,80" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+          <polygon points="37,80 63,80 50,68" fill="#33503E"/>
+          <polygon points="40,72 60,72 50,58" fill="#33503E"/>
+          <polygon points="43,63 57,63 50,47" fill="#33503E"/>
+          <polygon points="23,80 41,80 32,71" fill="#33503E"/>
+          <polygon points="25,74 39,74 32,64" fill="#33503E"/>
+          <polygon points="27,67 37,67 32,56" fill="#33503E"/>
+          <polygon points="59,80 77,80 68,71" fill="#33503E"/>
+          <polygon points="61,74 75,74 68,64" fill="#33503E"/>
+          <polygon points="63,67 73,67 68,56" fill="#33503E"/>
+        </svg>
+        <span class="wordmark-text">
+          <span>Into the Great</span>
+          <span>Wide Open</span>
+        </span>
+      </a>
+      <div class="nav-right">
+        <div class="nav-links" id="nav-links">
+          <a href="/trips">Trips</a>
+          <a href="/travels">All Travels</a>
+          <a href="/map">Map</a>
+          <a href="/about">About</a>
+        </div>
+        <a class="nav-search" href="/search" aria-label="Search the site">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <slot />
+    <script>
+      const navToggle = document.getElementById('nav-toggle');
+      const navLinks = document.getElementById('nav-links');
+      if (navToggle && navLinks) {
+        navToggle.addEventListener('click', () => {
+          const isOpen = navLinks.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+      }
+    </script>
+  </body>
+</html>

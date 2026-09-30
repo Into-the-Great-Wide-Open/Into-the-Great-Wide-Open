@@ -1,0 +1,65 @@
+---
+title: "Montreal, Canada"
+cityName: "Montreal"
+subtitle: "Summer and Winter"
+continent: "NorthAmerica"
+country: "Canada"
+trip: "other-travels"
+date: null
+dateLabel: "July 2005 and January 2009"
+coordinates:
+  lat: 45.5601257
+  lng: -73.7120503
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Though dreams can be deceiving like faces are to hearts", "They serve for sweet relieving when fantasy and reality lie too far apart"]
+  attribution: "- Fiona Apple"
+  attributionHref: "https://www.youtube.com/watch?v=WoeIeg_JvoA"
+photos:
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-1.jpg"
+    caption: "People enjoying the Champs de Mars in the summer"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-2.jpg"
+    caption: "The Basilica"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-3.jpg"
+    caption: "Wide angle view of the city from the Parc du Mont Royal"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-4.jpg"
+    caption: "The Olympic Tower"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-5.jpg"
+    caption: "Colorful flowers in the park"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-6.jpg"
+    caption: "The Olympic Tower in the distance"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-7.jpg"
+    caption: "The old Palace of Justice"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-8.jpg"
+    caption: "Habitat 67 from the World's Fair Expo in 1967"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-9.jpg"
+    caption: "Montreal Biosphere"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-10.jpg"
+    caption: "Montreal Biosphere"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-11.jpg"
+    caption: "The Cathedral in the winter"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-12.jpg"
+    caption: "Sign for Igloofest in the winter"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-13.jpg"
+    caption: "Champ de Mars in the winter"
+  - source: "NorthAmerica/Canada/Montreal/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/Canada/Montreal/Images/large-14.jpg"
+    caption: "Hotel de Ville in the winter"
+videos: []
+sourcePath: "NorthAmerica/Canada/Montreal/index.shtml"
+---
+
+

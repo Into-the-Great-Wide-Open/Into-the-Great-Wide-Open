@@ -1,0 +1,66 @@
+---
+title: "San Francisco, CA; USA"
+cityName: "San Francisco"
+subtitle: "The Bay Area"
+continent: "NorthAmerica"
+country: "USA"
+trip: "usa"
+region: "Northwest"
+date: 2004-10-12
+dateLabel: "October 12, 2004"
+coordinates:
+  lat: 37.8446628
+  lng: -122.1710124
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["I'd like to rest my heavy head tonight", "On a bed of California stars", "I'd like to lay my weary bones tonight", "On a bed of California stars"]
+  attribution: "- Wilco"
+  attributionHref: "https://www.youtube.com/watch?v=gxzMbAMO73k"
+photos:
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-1.jpg"
+    caption: "Giant Sequoias"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-2.jpg"
+    caption: "Giant Sequoias"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-3.jpg"
+    caption: "Giant Sequoias"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-4.jpg"
+    caption: "Giant Sequoias"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-5.jpg"
+    caption: "Giant Sequoias"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-6.jpg"
+    caption: "Alcatraz in the distance"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-7.jpg"
+    caption: "The Golden Gate Bridge"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-8.jpg"
+    caption: "A green oasis in the city"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-9.jpg"
+    caption: "A container ship passes by the city skyline"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-10.jpg"
+    caption: "Panorama of the Golden Gate Bridge"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-11.jpg"
+    caption: "The fog rolls in"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-12.jpg"
+    caption: "Palace of Fine Arts"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-13.jpg"
+    caption: "Highway 1 down the coast"
+  - source: "NorthAmerica/USA/SanFrancisco/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/USA/SanFrancisco/Images/large-14.jpg"
+    caption: "Highway 1 down the coast"
+videos: []
+sourcePath: "NorthAmerica/USA/SanFrancisco/index.shtml"
+---
+
+

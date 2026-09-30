@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countryDisplayName } from '../../lib/countryNames';
+import { getCountryHeroPhoto } from '../../lib/tripStats';
+import { tryResolveImage } from '../../lib/images';
+
+// Region display order and labels, matching design-brief.md's continent breakdown
+// (Africa 4, Asia 15, Europe 18, North America 11, South America 11, South Pacific 4).
+const REGION_ORDER = ['Africa', 'Asia', 'Europe', 'NorthAmerica', 'SouthAmerica', 'SouthPacific'] as const;
+const REGION_LABELS: Record<string, string> = {
+  Africa: 'Africa',
+  Asia: 'Asia',
+  Europe: 'Europe',
+  NorthAmerica: 'North America',
+  SouthAmerica: 'South America',
+  SouthPacific: 'South Pacific',
+};
+
+const entries = await getCollection('entries');
+
+// country -> { continent, count }
+const byCountry = new Map<string, { continent: string; count: number }>();
+for (const entry of entries) {
+  const existing = byCountry.get(entry.data.country);
+  if (existing) {
+    existing.count += 1;
+  } else {
+    byCountry.set(entry.data.country, { continent: entry.data.continent, count: 1 });
+  }
+}
+
+// continent -> sorted [country, info][]
+const byRegion = new Map<string, [string, { continent: string; count: number }][]>();
+for (const [country, info] of byCountry) {
+  const list = byRegion.get(info.continent) ?? [];
+  list.push([country, info]);
+  byRegion.set(info.continent, list);
+}
+for (const list of byRegion.values()) {
+  list.sort((a, b) => countryDisplayName(a[0]).localeCompare(countryDisplayName(b[0])));
+}
+
+const regions = REGION_ORDER.filter((region) => byRegion.has(region)).map((region) => ({
+  key: region,
+  label: REGION_LABELS[region] ?? region,
+  countries: byRegion.get(region)!,
+}));
+---
+
+<BaseLayout title="Browse by region" description="All countries, grouped by region — the full geographic index regardless of trip.">
+  <div class="container">
+    <h1>Browse by region</h1>
+    <p>The full geographic index — every country visited, regardless of which trip it belongs to. See a trip's own page for its story.</p>
+
+    {regions.map((region) => (
+      <>
+        <h2 style="font-style: normal; color: var(--ink); margin-top: 2.5rem;">
+          {region.label} <span class="meta" style="font-weight: 400;">({region.countries.length})</span>
+        </h2>
+        <div class="grid photo-cards photo-cards-small region-grid">
+          {region.countries.map(([country, info]) => {
+            const hero = getCountryHeroPhoto(country, entries);
+            const heroImg = tryResolveImage(hero);
+            return (
+              <a class="photo-card" href={`/countries/${country}`}>
+                {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+                <div class="photo-card-body">
+                  <h3>{countryDisplayName(country)}</h3>
+                  <p class="meta">{info.count} {info.count === 1 ? 'entry' : 'entries'}</p>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </>
+    ))}
+  </div>
+</BaseLayout>

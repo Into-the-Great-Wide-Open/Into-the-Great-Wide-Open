@@ -1,0 +1,141 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCountryImages } from '../../lib/countryImages';
+import { tryResolveImage } from '../../lib/images';
+import CountryMap from '../../components/CountryMap.astro';
+
+// USA doesn't fit the standard trip template (spans multiple trips, 82
+// stops, four regions instead of one narrative thread) — see design-brief.md's
+// "USA hub page" section for the confirmed layout. This is its own static
+// route rather than going through src/pages/trips/[...slug].astro (which now
+// excludes the "usa" slug).
+const trip = (await getCollection('trips')).find((t) => t.data.slug === 'usa')!;
+const { data } = trip;
+
+const allEntries = await getCollection('entries');
+const stops = allEntries.filter((e) => e.data.trip === 'usa');
+
+const REGION_ORDER = ['Eastern', 'Central', 'Southwest and Hawaii', 'Northwest'] as const;
+
+const regions = REGION_ORDER.map((name) => ({
+  name,
+  stops: stops
+    .filter((e) => e.data.region === name)
+    .sort((a, b) => (a.data.date?.getTime() ?? 0) - (b.data.date?.getTime() ?? 0))
+    .map((entry) => ({ entry, heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge) })),
+}));
+
+const images = getCountryImages()['USA'];
+const flagImg = tryResolveImage(images?.flag);
+const stampImg = tryResolveImage(images?.stamp);
+
+const mapStops = stops
+  .filter((e) => e.data.coordinates)
+  .map((e) => ({
+    id: e.id,
+    cityName: e.data.cityName,
+    lat: e.data.coordinates!.lat,
+    lng: e.data.coordinates!.lng,
+  }));
+
+// Each region shows this many stops up front, then a "Show all N stops"
+// button reveals the rest in place — no separate route/link (the old
+// collapsed-list-plus-link pattern is what caused the trip-page truncation
+// bug elsewhere on the site; this expands client-side instead).
+const COLLAPSE_COUNT = 6;
+---
+
+<BaseLayout title={data.name} description={`${stops.length} stops across the United States, grouped by region.`}>
+  <div class="container" data-pagefind-body>
+    <span hidden data-pagefind-meta={`place:${data.name}`}></span>
+    <p class="tag">Hub page — spans multiple trips</p>
+    <h1 style="margin-top: 0.75rem;">United States</h1>
+    <p class="meta">{stops.length} stops · 4 regions</p>
+
+    <p style="max-width: var(--measure);">
+      Chicago and Los Angeles (the start of Into the Great Wide Open) and San Diego and Pittsboro
+      (the start and end of Southward Bound) each have their own entries on those trips' pages
+      instead of here — this hub covers everywhere else in the country.
+    </p>
+
+    {data.lyric && (
+      <div class="lyric">
+        {data.lyric.lines.map((line) => <p>{line}</p>)}
+        {data.lyric.attribution && (
+          <cite>
+            {data.lyric.attributionHref ? (
+              <a href={data.lyric.attributionHref} target="_blank" rel="noopener">{data.lyric.attribution}</a>
+            ) : (
+              data.lyric.attribution
+            )}
+          </cite>
+        )}
+      </div>
+    )}
+
+    {(flagImg || stampImg) && (
+      <div class="country-artifacts">
+        {flagImg && <Image class="country-flag" src={flagImg} alt="USA flag" />}
+        {stampImg && <Image class="country-stamp" src={stampImg} alt="Passport stamp" />}
+      </div>
+    )}
+
+    {mapStops.length > 0 && (
+      <>
+        <h2 class="section-heading">Route</h2>
+        <CountryMap stops={mapStops} />
+      </>
+    )}
+
+    {regions.map((region) => (
+      <section class="usa-region">
+        <h2 class="section-heading">
+          {region.name} <span class="meta">({region.stops.length})</span>
+        </h2>
+        <div class="grid photo-cards photo-cards-small">
+          {region.stops.map(({ entry, heroImg }, i) => (
+            <a
+              class="photo-card usa-region-stop"
+              href={`/entries/${entry.id}`}
+              hidden={i >= COLLAPSE_COUNT ? true : undefined}
+            >
+              {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+              <div class="photo-card-body">
+                <h3>{entry.data.cityName}</h3>
+                <p class="meta">{entry.data.dateRangeLabel ?? entry.data.dateLabel}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+        {region.stops.length > COLLAPSE_COUNT && (
+          <button type="button" class="btn-outline usa-region-toggle">
+            Show all {region.stops.length} stops
+          </button>
+        )}
+      </section>
+    ))}
+  </div>
+
+  <script>
+    document.querySelectorAll('.usa-region').forEach((section) => {
+      const toggle = section.querySelector('.usa-region-toggle');
+      if (!toggle) return;
+      toggle.addEventListener(
+        'click',
+        () => {
+          section.querySelectorAll('.usa-region-stop[hidden]').forEach((card) => {
+            card.removeAttribute('hidden');
+          });
+          toggle.remove();
+        },
+        { once: true }
+      );
+    });
+  </script>
+</BaseLayout>

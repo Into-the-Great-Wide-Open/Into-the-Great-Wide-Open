@@ -1,0 +1,341 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import { Image, getImage } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countryDisplayName } from '../../lib/countryNames';
+import { getAdjacentEntries } from '../../lib/entryNav';
+import { resolveImage, safeWidths } from '../../lib/images';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries');
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+
+const trip = await getEntry('trips', data.trip);
+
+const allEntries = await getCollection('entries');
+const { prev, next } = getAdjacentEntries(entry, allEntries);
+
+// One shared array drives both the main+thumbnail gallery and the full-screen
+// lightbox: the medium-size optimized image for the gallery view, the
+// large-size optimized image for the lightbox. Both are precomputed here at
+// build time (via astro:assets' getImage(), Sharp-backed) since the actual
+// swapping on click happens in plain client-side JS below with no server
+// round-trip — so each photo's responsive src/srcset/sizes have to already
+// be baked into the data handed to that script.
+const galleryPhotos = await Promise.all(
+  data.photos.map(async (p) => {
+    // Only one source resolution exists per photo now (the medium/large split
+    // was retired to shrink the repo); both the gallery and lightbox variants
+    // are simply downscaled from it at build time.
+    const mediumImg = resolveImage(p.sourceLarge);
+    const largeImg = mediumImg;
+    const medium = await getImage({
+      src: mediumImg,
+      width: 800,
+      height: 500,
+      fit: 'cover',
+      widths: [400, 800],
+      sizes: '(max-width: 700px) 100vw, 700px',
+      format: 'webp',
+    });
+    const large = await getImage({
+      src: largeImg,
+      widths: safeWidths(largeImg),
+      sizes: '100vw',
+      format: 'webp',
+    });
+    return {
+      src: medium.src,
+      srcset: medium.srcSet.attribute,
+      sizes: medium.attributes.sizes as string,
+      width: mediumImg.width,
+      height: mediumImg.height,
+      full: large.src,
+      fullSrcset: large.srcSet.attribute,
+      fullSizes: large.attributes.sizes as string,
+      fullWidth: largeImg.width,
+      fullHeight: largeImg.height,
+      caption: p.caption ?? '',
+    };
+  })
+);
+
+// Click-to-load video facade: extract the YouTube video id from the stored
+// embed URL (all 34 real videos across the site use a plain
+// "https://www.youtube.com/embed/{id}?..." src — see design-brief.md's Video
+// embed spec) so we can show a free thumbnail (img.youtube.com, no API key)
+// and only build the real iframe once someone clicks play.
+const videos = data.videos
+  .map((v) => {
+    const match = v.src.match(/\/embed\/([\w-]+)/);
+    return match
+      ? { id: match[1], caption: v.caption ?? '' }
+      : null;
+  })
+  .filter((v) => v !== null);
+
+// Site-search metadata (Pagefind — see design-brief.md's "Site search"
+// section): this page's <div class="container"> is the only part of the
+// document indexed (data-pagefind-body), so the nav never shows up in
+// results. "place"/"country"/"trip" are separate fields (not just baked
+// into the page title) so the search results page can show them as their
+// own labeled pieces, matching the confirmed result-card spec.
+const countryName = countryDisplayName(data.country);
+---
+
+<BaseLayout title={data.title} description={data.subtitle}>
+  <div class="container" data-pagefind-body>
+    {trip && <a class="tag" href={`/trips/${trip.data.slug}`}>{trip.data.name}</a>}
+    {trip && <span hidden data-pagefind-meta={`trip:${trip.data.name}`}></span>}
+    <span hidden data-pagefind-meta={`place:${data.cityName}`}></span>
+    <span hidden data-pagefind-meta={`country:${countryName}`}></span>
+
+    <h1 style="margin-top: 0.75rem;">{data.title}</h1>
+    <h2>{data.subtitle}</h2>
+    <h4>{data.dateRangeLabel ?? data.dateLabel}</h4>
+
+    {data.linkedPairGroup && (
+      <p class="meta" style="color: var(--slate);">
+        Part of a linked pair — see the companion entry. {data.linkedPairReason}
+      </p>
+    )}
+
+    {data.lyric && (
+      <div class="lyric">
+        {data.lyric.lines.map((line) => <p>{line}</p>)}
+        {data.lyric.attribution && (
+          <cite>
+            {data.lyric.attributionHref ? (
+              <a href={data.lyric.attributionHref}>{data.lyric.attribution}</a>
+            ) : (
+              data.lyric.attribution
+            )}
+          </cite>
+        )}
+      </div>
+    )}
+
+    {data.photos.length > 0 && (
+      <>
+        <div class="gallery">
+          <button type="button" class="gallery-main" id="gallery-main-trigger" aria-label="View photo larger">
+            <img
+              id="gallery-main-img"
+              src={galleryPhotos[0].src}
+              srcset={galleryPhotos[0].srcset}
+              sizes={galleryPhotos[0].sizes}
+              width={galleryPhotos[0].width}
+              height={galleryPhotos[0].height}
+              alt={galleryPhotos[0].caption}
+              data-pagefind-meta="image[src]"
+            />
+          </button>
+          <p class="gallery-caption meta" id="gallery-caption">{data.photos[0].caption ?? ''}</p>
+
+          {data.photos.length > 1 && (
+            <div class="gallery-thumbs">
+              {data.photos.map((photo, i) => (
+                <button
+                  type="button"
+                  class="gallery-thumb"
+                  data-index={i}
+                  aria-label={`Show photo ${i + 1} of ${data.photos.length}`}
+                  aria-current={i === 0 ? 'true' : undefined}
+                >
+                  <Image src={resolveImage(photo.sourceLarge)} width={120} height={120} fit="cover" alt="" loading="lazy" />
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div class="lightbox" id="lightbox" hidden>
+          <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+          <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+          <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+          <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+          <p class="lightbox-caption" id="lightbox-caption"></p>
+          <p class="lightbox-count" id="lightbox-count"></p>
+        </div>
+
+        <script define:vars={{ photos: galleryPhotos }}>
+          (function () {
+            let current = 0;
+
+            const mainImg = document.getElementById('gallery-main-img');
+            const galleryCaption = document.getElementById('gallery-caption');
+            const mainTrigger = document.getElementById('gallery-main-trigger');
+            const thumbs = document.querySelectorAll('.gallery-thumb');
+
+            const overlay = document.getElementById('lightbox');
+            const lbImg = document.getElementById('lightbox-img');
+            const lbCaption = document.getElementById('lightbox-caption');
+            const lbCount = document.getElementById('lightbox-count');
+            const closeBtn = document.getElementById('lightbox-close');
+            const prevBtn = document.getElementById('lightbox-prev');
+            const nextBtn = document.getElementById('lightbox-next');
+
+            function selectMain(index) {
+              current = (index + photos.length) % photos.length;
+              const photo = photos[current];
+              mainImg.src = photo.src;
+              mainImg.srcset = photo.srcset;
+              mainImg.sizes = photo.sizes;
+              mainImg.width = photo.width;
+              mainImg.height = photo.height;
+              mainImg.alt = photo.caption;
+              if (galleryCaption) galleryCaption.textContent = photo.caption;
+              thumbs.forEach((t, i) => {
+                if (i === current) t.setAttribute('aria-current', 'true');
+                else t.removeAttribute('aria-current');
+              });
+            }
+
+            function showLightbox(index) {
+              current = (index + photos.length) % photos.length;
+              const photo = photos[current];
+              lbImg.src = photo.full;
+              lbImg.srcset = photo.fullSrcset;
+              lbImg.sizes = photo.fullSizes;
+              lbImg.width = photo.fullWidth;
+              lbImg.height = photo.fullHeight;
+              lbImg.alt = photo.caption;
+              lbCaption.textContent = photo.caption;
+              lbCount.textContent = photos.length > 1 ? (current + 1) + ' / ' + photos.length : '';
+              prevBtn.hidden = photos.length <= 1;
+              nextBtn.hidden = photos.length <= 1;
+              selectMain(current);
+            }
+
+            function openLightbox(index) {
+              showLightbox(index);
+              overlay.hidden = false;
+              document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+              overlay.hidden = true;
+              document.body.style.overflow = '';
+            }
+
+            thumbs.forEach((btn) => {
+              btn.addEventListener('click', () => selectMain(Number(btn.dataset.index)));
+            });
+
+            if (mainTrigger) {
+              mainTrigger.addEventListener('click', () => openLightbox(current));
+            }
+
+            closeBtn.addEventListener('click', closeLightbox);
+            overlay.addEventListener('click', (e) => {
+              if (e.target === overlay) closeLightbox();
+            });
+            prevBtn.addEventListener('click', () => showLightbox(current - 1));
+            nextBtn.addEventListener('click', () => showLightbox(current + 1));
+
+            document.addEventListener('keydown', (e) => {
+              if (overlay.hidden) return;
+              if (e.key === 'Escape') closeLightbox();
+              if (e.key === 'ArrowLeft') showLightbox(current - 1);
+              if (e.key === 'ArrowRight') showLightbox(current + 1);
+            });
+
+            let touchStartX = null;
+            overlay.addEventListener('touchstart', (e) => {
+              touchStartX = e.changedTouches[0].clientX;
+            });
+            overlay.addEventListener('touchend', (e) => {
+              if (touchStartX === null) return;
+              const dx = e.changedTouches[0].clientX - touchStartX;
+              if (Math.abs(dx) > 40) {
+                if (dx > 0) showLightbox(current - 1);
+                else showLightbox(current + 1);
+              }
+              touchStartX = null;
+            });
+          })();
+        </script>
+      </>
+    )}
+
+    {videos.length > 0 && (
+      <div class="video-list">
+        {videos.map((video) => (
+          <div class="video-embed" data-video-id={video.id}>
+            <button
+              type="button"
+              class="video-facade"
+              aria-label={video.caption ? `Play video: ${video.caption}` : 'Play video'}
+            >
+              <img src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} alt="" loading="lazy" />
+              <span class="video-play-icon" aria-hidden="true"></span>
+              {video.caption && <span class="video-caption">{video.caption}</span>}
+            </button>
+          </div>
+        ))}
+      </div>
+    )}
+
+    <script>
+      document.querySelectorAll('.video-embed').forEach((el) => {
+        const btn = el.querySelector('.video-facade');
+        if (!btn) return;
+        btn.addEventListener(
+          'click',
+          () => {
+            const id = el.getAttribute('data-video-id');
+            if (!id) return;
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+            iframe.title = 'Video';
+            iframe.className = 'video-iframe';
+            iframe.setAttribute(
+              'allow',
+              'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            );
+            iframe.setAttribute('allowfullscreen', 'true');
+            el.replaceChildren(iframe);
+          },
+          { once: true }
+        );
+      });
+    </script>
+
+    <div class="prose" style="margin-top: 1.5rem;">
+      <Content />
+    </div>
+
+    <nav class="entry-nav" aria-label="Adjacent entries">
+      {prev ? (
+        <a class="entry-nav-link entry-nav-prev" href={`/entries/${prev.id}`}>
+          {prev.photo && (
+            <Image class="entry-nav-thumb" src={prev.photo} width={150} height={113} fit="cover" alt="" loading="lazy" />
+          )}
+          <span class="entry-nav-text">
+            <span class="meta">&larr; Previous</span>
+            <span>{prev.cityName}, {countryDisplayName(prev.country)}</span>
+          </span>
+        </a>
+      ) : <span />}
+      {next ? (
+        <a class="entry-nav-link entry-nav-next" href={`/entries/${next.id}`}>
+          <span class="entry-nav-text">
+            <span class="meta">Next &rarr;</span>
+            <span>{next.cityName}, {countryDisplayName(next.country)}</span>
+          </span>
+          {next.photo && (
+            <Image class="entry-nav-thumb" src={next.photo} width={150} height={113} fit="cover" alt="" loading="lazy" />
+          )}
+        </a>
+      ) : <span />}
+    </nav>
+  </div>
+</BaseLayout>

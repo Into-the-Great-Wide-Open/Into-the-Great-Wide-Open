@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countryDisplayName } from '../../lib/countryNames';
+import { tryResolveImage } from '../../lib/images';
+
+const entries = await getCollection('entries');
+
+const dated = entries
+  .filter((e) => e.data.date)
+  .sort((a, b) => a.data.date!.getTime() - b.data.date!.getTime())
+  .map((entry) => ({ entry, heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge) }));
+
+const undated = entries
+  .filter((e) => !e.data.date)
+  .sort((a, b) => a.data.cityName.localeCompare(b.data.cityName))
+  .map((entry) => ({ entry, heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge) }));
+---
+
+<BaseLayout title="All Travels" description="Every entry on the site, in one place, in chronological order.">
+  <div class="container">
+    <h1>All Travels</h1>
+    <p>Every stop on the site in one place — {entries.length} entries, oldest to newest, regardless of trip or country. See Trips or Browse by region for grouped views.</p>
+
+    <div class="grid photo-cards photo-cards-small" style="margin-top: 1.5rem;">
+      {dated.map(({ entry, heroImg }) => (
+        <a class="photo-card" href={`/entries/${entry.id}`}>
+          {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>{entry.data.cityName}, {countryDisplayName(entry.data.country)}</h3>
+            <p class="meta">{entry.data.dateRangeLabel ?? entry.data.dateLabel}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {undated.length > 0 && (
+      <>
+        <h2 class="section-heading">Undated</h2>
+        <p class="meta">Entries with no recovered date (seasonal-label-only stops).</p>
+        <div class="grid photo-cards photo-cards-small" style="margin-top: 1rem;">
+          {undated.map(({ entry, heroImg }) => (
+            <a class="photo-card" href={`/entries/${entry.id}`}>
+              {heroImg && (
+            <div class="photo-card-image">
+              <Image src={heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+              <div class="photo-card-body">
+                <h3>{entry.data.cityName}, {countryDisplayName(entry.data.country)}</h3>
+                <p class="meta">{entry.data.dateRangeLabel ?? entry.data.dateLabel}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</BaseLayout>

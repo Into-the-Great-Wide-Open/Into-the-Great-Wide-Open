@@ -1,0 +1,65 @@
+---
+title: "San Jose, Costa Rica"
+cityName: "San Jose"
+subtitle: "City Life"
+continent: "NorthAmerica"
+country: "CostaRica"
+trip: "other-travels"
+date: 2013-11-16
+dateLabel: "November 16, 2013"
+coordinates:
+  lat: 9.9281
+  lng: -84.0907
+coordinatesSource: "own_sidebar_map"
+lyric:
+  lines: ["Somewhere out there on that horizon", "Out beyond the neon lights", "I know there must be somethin' better", "But there's nowhere else in sight", "It's survival in the city"]
+  attribution: "- The Eagles"
+  attributionHref: "https://www.youtube.com/watch?v=ADB7oozxPA4"
+photos:
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-1.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-1.jpg"
+    caption: "The view from the patio at night in Escazu"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-2.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-2.jpg"
+    caption: "The view from the patio at daytime  in Escazu"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-3.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-3.jpg"
+    caption: "Near Pico Blanco, with San Jose in the distance"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-4.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-4.jpg"
+    caption: "San Jose and the surroundings from above"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-5.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-5.jpg"
+    caption: "Foosball in the plaza"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-6.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-6.jpg"
+    caption: "Parque central"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-7.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-7.jpg"
+    caption: "National Theater building"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-8.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-8.jpg"
+    caption: "Avenida Central pedestrian area"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-9.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-9.jpg"
+    caption: "Spaceship made of plastic bottles"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-10.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-10.jpg"
+    caption: "Dancing under the dome"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-11.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-11.jpg"
+    caption: "Hula hooping outside of a school"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-12.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-12.jpg"
+    caption: "The Gold Museum"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-13.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-13.jpg"
+    caption: "The Gold Museum"
+  - source: "NorthAmerica/CostaRica/SanJose/Images/medium-14.jpg"
+    sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-14.jpg"
+    caption: "The Gold Museum"
+videos: []
+sourcePath: "NorthAmerica/CostaRica/SanJose/index.shtml"
+---
+
+

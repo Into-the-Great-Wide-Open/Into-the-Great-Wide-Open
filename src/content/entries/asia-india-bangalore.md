@@ -1,0 +1,88 @@
+---
+title: "Bangalore, India"
+cityName: "Bangalore"
+subtitle: "The Garden City"
+continent: "Asia"
+country: "India"
+trip: "a-summer-in-india"
+date: 2013-07-07
+dateLabel: "July 7, 2013"
+coordinates:
+  lat: 12.9539974
+  lng: 77.6309395
+coordinatesSource: "country_marker_match"
+lyric:
+  lines: ["There's a place up ahead and I'm goin'", "Just as fast as my feet can fly", "Come away, come away if you're goin'", "Leave the sinkin' ship behind"]
+  attribution: "- Creedence Clearwater Revival"
+  attributionHref: "https://www.youtube.com/watch?v=BnRsaHXHznQ"
+photos:
+  - source: "Asia/India/Bangalore/Images/medium-1.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-1.jpg"
+    caption: "UB City Mall and tower"
+  - source: "Asia/India/Bangalore/Images/medium-2.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-2.jpg"
+    caption: "The sprawl of Bangalore"
+  - source: "Asia/India/Bangalore/Images/medium-3.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-3.jpg"
+    caption: "Just off of Commercial Street"
+  - source: "Asia/India/Bangalore/Images/medium-4.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-4.jpg"
+    caption: "A cow obstructs traffic"
+  - source: "Asia/India/Bangalore/Images/medium-5.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-5.jpg"
+    caption: "A stray dog takes shelter"
+  - source: "Asia/India/Bangalore/Images/medium-6.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-6.jpg"
+    caption: "Intersection at Mahatma Gandhi road"
+  - source: "Asia/India/Bangalore/Images/medium-7.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-7.jpg"
+    caption: "Sacred Heart Church"
+  - source: "Asia/India/Bangalore/Images/medium-8.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-8.jpg"
+    caption: "Riding in a rickshaw"
+  - source: "Asia/India/Bangalore/Images/medium-9.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-9.jpg"
+    caption: "The Vidhana Soudha (state legislature)"
+  - source: "Asia/India/Bangalore/Images/medium-10.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-10.jpg"
+    caption: "Inside Tipu Sultan's Summer Palace"
+  - source: "Asia/India/Bangalore/Images/medium-11.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-11.jpg"
+    caption: "Tipu Sultan's Summer Palace"
+  - source: "Asia/India/Bangalore/Images/medium-12.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-12.jpg"
+    caption: "Crowded street near the City Market"
+  - source: "Asia/India/Bangalore/Images/medium-13.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-13.jpg"
+    caption: "Sultan's Fort"
+  - source: "Asia/India/Bangalore/Images/medium-14.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-14.jpg"
+    caption: "Wall carving at the fort"
+  - source: "Asia/India/Bangalore/Images/medium-15.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-15.jpg"
+    caption: "Entrance to the Sultan's Fort"
+  - source: "Asia/India/Bangalore/Images/medium-16.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-16.jpg"
+    caption: "Leaves for sale at the City Market"
+  - source: "Asia/India/Bangalore/Images/medium-17.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-17.jpg"
+    caption: "Jama Masjid"
+  - source: "Asia/India/Bangalore/Images/medium-18.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-18.jpg"
+    caption: "Pick-up cricket game"
+  - source: "Asia/India/Bangalore/Images/medium-19.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-19.jpg"
+    caption: "No Big Macs at McDonalds, only chicken and veg sandwiches"
+  - source: "Asia/India/Bangalore/Images/medium-20.jpg"
+    sourceLarge: "Asia/India/Bangalore/Images/large-20.jpg"
+    caption: "Forum Mall"
+videos: []
+keptSeparateReason: "not a repeat visit -- Parikrma is a distinct place (a school) visited 2 weeks later"
+sourcePath: "Asia/India/Bangalore/index.shtml"
+---
+
+Electronics City is about 20 km south from the center of Bangalore. That may not seem like a long way but with Bangalore’s crippling traffic this can easily take 90 minutes. What makes that even worse is that more than half of this distance can be covered rather rapidly on the elevated toll road that runs above the traffic clogged regular road. When the tollway comes to an abrupt end you are thrust into stop and go traffic ensnarled by the chaotic movements of motorcycles, cars, rickshaws, trucks, and buses. Traffic backs up from the few intersections with traffic lights and is further slowed by the poor quality of the roads and lack of any discernible traffic rules and regulations. Cows and people amble through and across the roads oblivious to the congestion around them. When you read so much about India’s development and modernization and then see cows walking in the middle of the city streets it really makes it difficult to take the city seriously in any modern global context.
+
+There are a handful of sights in the city, an array of temples and mosques, a few palaces and parks and gardens. These are all surrounded by a city that sprawls haphazardly without direction or guidance. The overall dirtiness and filth present throughout most parts of the city, even the “nicer” streets take some getting used to. Inside the luxury UB City mall it seems like another world. However, like many of the other upscale areas the streets outside are little different from all the others. Traveling around the city I have yet to see a really nice area of any substantial size. There are many attractive modern buildings but they are all thrust in the middle of the half-finished and half-decaying decrepitude that characterizes the city. Supposedly Bangalore is known as the garden city. If this is the garden city it doesn’t bode well for the rest of India.
+
+At some point you become accustomed to the chaos, seeming lack of rules, and general indifference that most people seem to have embraced. Delays and long waits are really inconsequential and customer service is often barely even feigned and most often ignored. Lines and queues are social norms that are generally disregarded without even the slightest hint of shame. In almost all facets of daily life the scale of inefficiency and lack of concern about said inefficiency is staggering.  The amount of paperwork and bureaucracy reach levels that are inconceivable almost anywhere else in the world. All of this must, to some extent, constrict the city’s growth and greatly hamper its development. For all the fame that Bangalore has attained from the rapid growth and development of its IT industry it is ironic that it feels like almost every process in the city is in need of outsourcing and streamlining.
