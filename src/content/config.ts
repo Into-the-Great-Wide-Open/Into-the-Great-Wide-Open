@@ -42,7 +42,7 @@ const entries = defineCollection({
     photos: z
       .array(
         z.object({
-          source: z.string(),
+          source: z.string().optional(), // vestigial: medium/large split was retired; kept optional for old entries only
           sourceLarge: z.string(),
           caption: z.string().nullable().optional(),
         })
@@ -72,7 +72,12 @@ const entries = defineCollection({
     // regions (Eastern/Central/Southwest and Hawaii/Northwest) this stop
     // belongs to. See design-brief.md's "USA hub page" section for how this
     // was derived from real coordinates.
-    region: z.enum(['Eastern', 'Central', 'Southwest and Hawaii', 'Northwest']).optional(),
+    // preprocess: the Sveltia CMS select widget writes '' (not an omitted key) when left
+    // blank, which a bare z.enum().optional() rejects — coerce '' to undefined first.
+    region: z.preprocess(
+      (val) => (val === '' ? undefined : val),
+      z.enum(['Eastern', 'Central', 'Southwest and Hawaii', 'Northwest']).optional()
+    ),
   }),
 });
 
@@ -83,7 +88,11 @@ const trips = defineCollection({
     name: z.string(),
     slug: z.string(),
     tagline: z.string().nullable().optional(),
-    routeColor: z.enum(['Pine', 'Slate', 'Clay']).nullable().optional(),
+    // Same '' -> undefined coercion as entries.region above (CMS select widget quirk).
+    routeColor: z.preprocess(
+      (val) => (val === '' ? undefined : val),
+      z.enum(['Pine', 'Slate', 'Clay']).nullable().optional()
+    ),
     cityCount: z.number(),
     hasRealEssay: z.boolean(),
     isHub: z.boolean(), // true only for USA (spans multiple trips, its own regional layout)
