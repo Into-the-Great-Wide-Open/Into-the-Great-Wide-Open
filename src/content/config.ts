@@ -133,4 +133,30 @@ const countries = defineCollection({
   }),
 });
 
-export const collections = { entries, trips, countries };
+// The About page's lyric epigraph + bio copy, and the homepage's quote + intro
+// copy — pulled out of their .astro templates into single-file content so they
+// can be managed from the CMS (Sveltia "file collection") instead of hand-edited
+// in code. See design-brief.md "Main pages are code, not CMS content".
+const aboutPage = defineCollection({
+  loader: glob({ pattern: 'about.md', base: './src/content/about-page' }),
+  schema: z.object({
+    lyric: z
+      .object({
+        lines: z.array(z.string()),
+        attribution: z.string().nullable().optional(),
+        attributionHref: z.string().url().nullable().optional(),
+      })
+      .nullable()
+      .optional(),
+  }),
+});
+
+const homePage = defineCollection({
+  loader: glob({ pattern: 'home.md', base: './src/content/home-page' }),
+  schema: z.object({
+    quote: z.string(),
+    quoteAttribution: z.string(),
+  }),
+});
+
+export const collections = { entries, trips, countries, aboutPage, homePage };

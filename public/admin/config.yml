@@ -145,3 +145,28 @@ collections:
           - { name: attribution, label: Attribution, widget: string, required: false }
           - { name: attributionHref, label: Attribution link, widget: string, required: false }
       - { name: sourcePath, label: 'Source path (migration metadata — do not edit)', widget: string }
+
+  - name: pages
+    label: 'Main Pages'
+    files:
+      - name: about
+        label: 'About Page'
+        file: src/content/about-page/about.md
+        fields:
+          - name: lyric
+            label: Lyric epigraph
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - { name: lines, label: Lines, widget: list, field: { name: line, widget: string } }
+              - { name: attribution, label: Attribution, widget: string, required: false }
+              - { name: attributionHref, label: Attribution link, widget: string, required: false }
+          - { name: body, label: Bio, widget: markdown }
+      - name: home
+        label: 'Homepage'
+        file: src/content/home-page/home.md
+        fields:
+          - { name: quote, label: Quote, widget: string }
+          - { name: quoteAttribution, label: Quote attribution, widget: string }
+          - { name: body, label: Intro copy, widget: markdown }
