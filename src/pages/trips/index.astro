@@ -5,10 +5,28 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { countCountriesPerTrip, getTripHeroPhoto } from '../../lib/tripStats';
 import { tryResolveImage } from '../../lib/images';
 
-const trips = await getCollection('trips');
+// USA isn't a single trip of its own — it still gets a full dedicated hub
+// page (src/pages/trips/usa.astro, regions/lyric/map intact), but it no
+// longer gets a card here. It's linked from the Other Travels page instead.
+// See design-brief.md "USA hub page".
+//
+// Display order: the two big trips (Into the Great Wide Open, Southward
+// Bound) lead, side by side, followed by everything else in whatever order
+// getCollection returns them (alphabetical by filename).
+const DISPLAY_ORDER = ['into-the-great-wide-open', 'southward-bound'];
+
+const trips = (await getCollection('trips')).filter((trip) => trip.data.slug !== 'usa');
 const entries = await getCollection('entries');
 const countryCounts = countCountriesPerTrip(entries);
-const tripCards = trips.map((trip) => ({
+const sortedTrips = [...trips].sort((a, b) => {
+  const ai = DISPLAY_ORDER.indexOf(a.data.slug);
+  const bi = DISPLAY_ORDER.indexOf(b.data.slug);
+  if (ai === -1 && bi === -1) return 0; // keep relative order for everything else
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+});
+const tripCards = sortedTrips.map((trip) => ({
   trip,
   countryCount: countryCounts.get(trip.data.slug) ?? 0,
   heroImg: tryResolveImage(getTripHeroPhoto(trip.data.slug, entries)),

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { countryDisplayName } from '../../lib/countryNames';
+import { getTripHeroPhoto } from '../../lib/tripStats';
 import { tryResolveImage } from '../../lib/images';
 import CountryMap from '../../components/CountryMap.astro';
 
@@ -31,6 +32,12 @@ const stopCards = stops.map((entry) => ({
   entry,
   heroImg: tryResolveImage(entry.data.photos[0]?.sourceLarge),
 }));
+
+// Other Travels is where USA gets linked from, since it isn't a single trip
+// of its own but still has its own dedicated hub page (src/pages/trips/usa.astro).
+const usaCard = data.slug === 'other-travels'
+  ? { heroImg: tryResolveImage(getTripHeroPhoto('usa', allEntries)) }
+  : null;
 
 const routeColorVar = data.routeColor ? `var(--${data.routeColor.toLowerCase()})` : 'var(--ink)';
 const countryCount = new Set(stops.map((e) => e.data.country)).size;
@@ -88,6 +95,19 @@ const mapStops = stops
           </div>
         </a>
       ))}
+      {usaCard && (
+        <a class="photo-card" href="/trips/usa">
+          {usaCard.heroImg && (
+            <div class="photo-card-image">
+              <Image src={usaCard.heroImg} alt="" loading="lazy" width={600} height={450} fit="cover" widths={[300, 600]} sizes="(max-width: 600px) 50vw, 300px" />
+            </div>
+          )}
+          <div class="photo-card-body">
+            <h3>USA</h3>
+            <p class="meta">Its own trip page &rarr;</p>
+          </div>
+        </a>
+      )}
     </div>
   </div>
 </BaseLayout>
