@@ -1,65 +1,77 @@
 ---
-title: "Akhaltsikhe, Georgia"
-cityName: "Akhaltsikhe"
-subtitle: "The Melting Pot of Georgia"
-continent: "Asia"
-country: "Georgia"
-trip: "into-the-great-wide-open"
+title: Akhaltsikhe, Georgia
+cityName: Akhaltsikhe
+subtitle: The Melting Pot of Georgia
+continent: Asia
+country: Georgia
+trip: into-the-great-wide-open
 date: 2012-06-29
-dateLabel: "June 29, 2012"
+dateLabel: June 29, 2012
+dateRangeLabel: ''
 coordinates:
   lat: 41.6328938396506
   lng: 42.989501953125
-coordinatesSource: "country_marker_match"
+coordinatesSource: country_marker_match
 lyric:
-  lines: ["So come out of your cave walking on your hands", "And see the world hanging upside down", "You can understand dependence", "When you know the maker's land"]
-  attribution: "- Mumford and Sons"
-  attributionHref: "https://www.youtube.com/watch?v=fNy8llTLvuA"
+  lines:
+    - So come out of your cave walking on your hands
+    - And see the world hanging upside down
+    - You can understand dependence
+    - When you know the maker's land
+  attribution: '- Mumford and Sons'
+  attributionHref: https://www.youtube.com/watch?v=kZQbkzwwinI
 photos:
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-1.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-1.jpg"
-    caption: "Khertvisi Fortress"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-2.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-2.jpg"
-    caption: "Castle in Akhaltsikhe"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-3.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-3.jpg"
-    caption: "Castle and Old City, Akhaltsikhe"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-4.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-4.jpg"
-    caption: "Ruins of Tmogvi Castle"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-5.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-5.jpg"
-    caption: "Cave city of Vardzia"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-6.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-6.jpg"
-    caption: "Inside one of the caves, Vardzia"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-7.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-7.jpg"
-    caption: "Caves carved into the mountain"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-8.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-8.jpg"
-    caption: "Carved arches in the cave"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-9.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-9.jpg"
-    caption: "Colorful paintings in the cathedral"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-10.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-10.jpg"
-    caption: "Tunnels into the mountain connecting the caves"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-11.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-11.jpg"
-    caption: "Caves and the main cathedral"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-12.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-12.jpg"
-    caption: "More caves"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-13.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-13.jpg"
-    caption: "More caves"
-  - source: "Asia/Georgia/Akhaltsikhe/Images/medium-14.jpg"
-    sourceLarge: "Asia/Georgia/Akhaltsikhe/Images/large-14.jpg"
-    caption: "The caves during a break in the rain"
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-1.jpg
+    caption: Khertvisi Fortress
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-1.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-2.jpg
+    caption: Castle in Akhaltsikhe
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-2.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-3.jpg
+    caption: Castle and Old City, Akhaltsikhe
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-3.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-4.jpg
+    caption: Ruins of Tmogvi Castle
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-4.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-5.jpg
+    caption: Cave city of Vardzia
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-5.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-6.jpg
+    caption: Inside one of the caves, Vardzia
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-6.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-7.jpg
+    caption: Caves carved into the mountain
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-7.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-8.jpg
+    caption: Carved arches in the cave
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-8.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-9.jpg
+    caption: Colorful paintings in the cathedral
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-9.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-10.jpg
+    caption: Tunnels into the mountain connecting the caves
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-10.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-11.jpg
+    caption: Caves and the main cathedral
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-11.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-12.jpg
+    caption: More caves
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-12.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-13.jpg
+    caption: More caves
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-13.jpg
+  - sourceLarge: Asia/Georgia/Akhaltsikhe/Images/large-14.jpg
+    caption: The caves during a break in the rain
+    source: Asia/Georgia/Akhaltsikhe/Images/medium-14.jpg
 videos: []
-sourcePath: "Asia/Georgia/Akhaltsikhe/index.shtml"
+mergeGroup: ''
+mergeGroupReason: ''
+linkedPairGroup: ''
+linkedPairReason: ''
+keptSeparateReason: ''
+dateDiscrepancyNote: ''
+sourcePath: Asia/Georgia/Akhaltsikhe/index.shtml
+region: ''
 ---
 
 Once again I find myself back in Georgia, courtesy of the discord between Iran and the United States. Since I was going to be so close to Iran when traveling to southern Armenia I decided to drop into the Iranian embassy in Yerevan to see if I could get a transit visa to travel through Iran to Turkey. I happened to meet a Korean traveler who wanted to visit Iran as well so we went together. I’m fairly certain that an American and a Korean have never walked into the Iranian embassy in Yerevan because everyone there was quite surprised.
