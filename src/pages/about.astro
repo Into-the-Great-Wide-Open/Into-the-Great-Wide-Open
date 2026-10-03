@@ -15,6 +15,9 @@ const photos = [
 ];
 
 const aboutPage = await getEntry('aboutPage', 'about');
+if (!aboutPage) {
+  throw new Error("Missing content entry 'about' in the 'aboutPage' collection (src/content/about-page/about.md)");
+}
 const { Content } = await render(aboutPage);
 ---
 

@@ -22,6 +22,9 @@ const recent = [...entries]
 const mapLayers = getWorldMapLayers(entries);
 
 const homePage = await getEntry('homePage', 'home');
+if (!homePage) {
+  throw new Error("Missing content entry 'home' in the 'homePage' collection (src/content/home-page/home.md)");
+}
 const { Content: HomeIntro } = await render(homePage);
 
 // The five images from the original site's homepage slideshow (start-img/start-slide-*.jpg),
