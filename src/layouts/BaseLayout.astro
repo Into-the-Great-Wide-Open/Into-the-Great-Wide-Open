@@ -7,6 +7,10 @@ interface Props {
 }
 
 const { title, description = 'A travel blog.' } = Astro.props;
+
+// One preferred address per page, so Google doesn't treat the same page
+// reached via netlify.app / www / http as separate duplicates.
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -17,6 +21,7 @@ const { title, description = 'A travel blog.' } = Astro.props;
     <title>{title} — Into the Great Wide Open</title>
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonicalURL} />
   </head>
   <body>
     <nav class="nav">

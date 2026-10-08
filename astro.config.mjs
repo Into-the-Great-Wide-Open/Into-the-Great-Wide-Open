@@ -1,9 +1,13 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://intothegreatwideopen.com',
   trailingSlash: 'ignore',
+  // Generates /sitemap-index.xml on every build (see public/robots.txt).
+  // The search results page is a tool, not content, so it's left out.
+  integrations: [sitemap({ filter: (page) => !page.includes('/search') })],
   vite: {
     build: {
       rollupOptions: {
