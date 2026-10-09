@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["At the end of every hard earned day", "People find some reason to believe"]
   attribution: "- Bruce Springsteen"
-  attributionHref: "https://www.youtube.com/watch?v=fpYkTD8lSP8"
+  attributionHref: "https://www.youtube.com/watch?v=H49obsV6oZ0"
 photos:
   - source: "Africa/Morocco/Fez/Images/medium-1.jpg"
     sourceLarge: "Africa/Morocco/Fez/Images/large-1.jpg"

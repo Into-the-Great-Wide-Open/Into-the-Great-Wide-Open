@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Running along the rocks of the river", "With the freedom to step where I choose", "Though I can't stop to rest I like traveling best", "And besides, I've got nothing to lose from it", "I find solace in all the extremes", "In pleasure as well as in pain", "I just wish he would let me explain to you", "The man in the midst of a change"]
   attribution: "- Gary Jules"
-  attributionHref: "https://www.youtube.com/watch?v=YO7E_EOAcYI"
+  attributionHref: "https://www.youtube.com/watch?v=o217g899X8A"
 photos:
   - source: "NorthAmerica/USA/Bodie/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Bodie/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Wine is fine, but whiskey's quicker"]
   attribution: "- Ozzy Osbourne"
-  attributionHref: "https://www.youtube.com/watch?v=KfEvkeR5qmo"
+  attributionHref: "https://www.youtube.com/watch?v=yVSmiDJB-PI"
 photos:
   - source: "SouthAmerica/Argentina/Mendoza/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Argentina/Mendoza/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["As we wind on down the road", "Our shadow's taller than our soul"]
   attribution: "- Led Zeppelin"
-  attributionHref: "https://www.youtube.com/watch?v=9Q7Vr3yQYWQ"
+  attributionHref: "https://www.youtube.com/watch?v=Ly6ZhQVnVow"
 photos:
   - source: "NorthAmerica/CostaRica/Poas/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/CostaRica/Poas/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["If you don't believe there's a price for this sweet paradise", "Just remind me to show you the scars"]
   attribution: "- Bob Dylan"
-  attributionHref: "https://www.youtube.com/watch?v=17JbP9b5duE"
+  attributionHref: "https://www.youtube.com/watch?v=-gsDBuHwqbM"
 photos:
   - source: "SouthAmerica/Brazil/RiodeJaneiro/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Brazil/RiodeJaneiro/Images/large-1.jpg"

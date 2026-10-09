@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Who could hang a name on you?", "When you change with every new day", "Still I'm gonna miss you...", "There's no time to lose, I heard her say", "Catch your dreams before they slip away", "Dying all the time", "Lose your dreams", "And you will lose your mind"]
   attribution: "- The Rolling Stones"
-  attributionHref: "https://www.youtube.com/watch?v=eYx_NfnoHL8"
+  attributionHref: "https://www.youtube.com/watch?v=6c1BThu95d8"
 photos:
   - source: "Europe/Spain/Barcelona2013/Images/medium-1.jpg"
     sourceLarge: "Europe/Spain/Barcelona2013/Images/large-1.jpg"

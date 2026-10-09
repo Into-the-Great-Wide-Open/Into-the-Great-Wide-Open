@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["The poetry that comes from the squaring off between and the circling is worth it", "finding beauty in the dissonance"]
   attribution: "- Tool"
-  attributionHref: "https://www.youtube.com/watch?v=_yNAABKD4IA"
+  attributionHref: "https://www.youtube.com/watch?v=MM62wjLrgmA"
 photos:
   - source: "NorthAmerica/USA/GlacierNP/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/GlacierNP/Images/large-1.jpg"

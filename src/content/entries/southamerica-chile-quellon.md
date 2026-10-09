@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Show a little faith there is magic in the night.", "You ain't a beauty", "But hey you're alright", "And that's alright with me"]
   attribution: "- Bruce Springsteen"
-  attributionHref: "https://www.youtube.com/watch?v=x5kXnq5IjdU"
+  attributionHref: "https://www.youtube.com/watch?v=UDIDawmeeI0"
 photos:
   - source: "SouthAmerica/Chile/Quellon/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Chile/Quellon/Images/large-1.jpg"

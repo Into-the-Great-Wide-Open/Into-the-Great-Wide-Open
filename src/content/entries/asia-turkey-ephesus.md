@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["May you build a ladder to the stars", "And climb on every rung", "May you stay forever young"]
   attribution: "- Bob Dylan"
-  attributionHref: "https://www.youtube.com/watch?v=FnFAu9cY5y4"
+  attributionHref: "https://www.youtube.com/watch?v=Frj2CLGldC4"
 photos:
   - source: "Asia/Turkey/Ephesus/Images/medium-1.jpg"
     sourceLarge: "Asia/Turkey/Ephesus/Images/large-1.jpg"

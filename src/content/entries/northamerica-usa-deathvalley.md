@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I fell into a burning ring of fire", "I went down down down and the flames went higher"]
   attribution: "- Johnny Cash"
-  attributionHref: "https://www.youtube.com/watch?v=_tmzxM_XvQA"
+  attributionHref: "https://www.youtube.com/watch?v=1WaV2x8GXj0"
 photos:
   - source: "NorthAmerica/USA/DeathValley/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/DeathValley/Images/large-1.jpg"

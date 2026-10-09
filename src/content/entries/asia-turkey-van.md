@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Yesterday and days before", "Sun is cold and rain is hard", "I know, been that way for all my time", "And forever, on it goes", "Through the circle, fast and slow", "I know, it can't stop, I wonder"]
   attribution: "- Creedence Clearwater Revival"
-  attributionHref: "https://www.youtube.com/watch?v=TS9_ipu9GKw"
+  attributionHref: "https://www.youtube.com/watch?v=u1V8YRJnr4Q"
 photos:
   - source: "Asia/Turkey/Van/Images/medium-1.jpg"
     sourceLarge: "Asia/Turkey/Van/Images/large-1.jpg"

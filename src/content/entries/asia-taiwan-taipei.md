@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Threatened by shadows at night, and exposed in the light", "Shine on you crazy diamond"]
   attribution: "- Pink Floyd"
-  attributionHref: "https://www.youtube.com/watch?v=bT7bbgsyzKc"
+  attributionHref: "https://www.youtube.com/watch?v=cWGE9Gi0bB0"
 photos:
   - source: "Asia/Taiwan/Taipei/Images/medium-1.jpg"
     sourceLarge: "Asia/Taiwan/Taipei/Images/large-1.jpg"

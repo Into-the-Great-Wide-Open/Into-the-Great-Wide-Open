@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["And they'll lay you down low in the easy", "And the lips that you kiss will say Christmas", "And the miles that you traveled the distance", "So believe no lies, dry your eyes and realize", "That surprise"]
   attribution: "- Van Morrison"
-  attributionHref: "https://www.youtube.com/watch?v=jslZvP9qbn0"
+  attributionHref: "https://www.youtube.com/watch?v=syIUmrSJWAU"
 photos:
   - source: "Europe/Spain/Tarifa/Images/medium-1.jpg"
     sourceLarge: "Europe/Spain/Tarifa/Images/large-1.jpg"

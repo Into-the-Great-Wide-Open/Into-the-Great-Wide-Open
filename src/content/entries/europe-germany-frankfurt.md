@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I think you will find when your death takes it's toll", "All the money you made will never buy back your soul"]
   attribution: "- Bob Dylan"
-  attributionHref: "https://www.youtube.com/watch?v=gOyWO2K9Crw"
+  attributionHref: "https://www.youtube.com/watch?v=JEmI_FT4YHU"
 photos:
   - source: "Europe/Germany/Frankfurt/Images/medium-1.jpg"
     sourceLarge: "Europe/Germany/Frankfurt/Images/large-1.jpg"

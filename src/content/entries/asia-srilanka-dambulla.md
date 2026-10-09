@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["It's easy to get buried in the past", "When you try to make a good thing last"]
   attribution: "- Neil Young"
-  attributionHref: "https://www.youtube.com/watch?v=7qMfjE9qdrQ"
+  attributionHref: "https://www.youtube.com/watch?v=gx3JUZ_bbRE"
 photos:
   - source: "Asia/SriLanka/Dambulla/Images/medium-1.jpg"
     sourceLarge: "Asia/SriLanka/Dambulla/Images/large-1.jpg"

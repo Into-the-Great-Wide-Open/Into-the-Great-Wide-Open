@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["You're a piece of broken glass on a sandy beach"]
   attribution: "- U2"
-  attributionHref: "https://www.youtube.com/watch?v=lA0krVJeszE"
+  attributionHref: "https://www.youtube.com/watch?v=gF4GS9cSll4"
 photos:
   - source: "SouthAmerica/Chile/Valparaiso/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Chile/Valparaiso/Images/large-1.jpg"

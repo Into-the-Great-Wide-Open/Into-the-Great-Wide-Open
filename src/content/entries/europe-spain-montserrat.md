@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Well I'm sick of potential", "I'm sick of vanity now", "I'm sticking to essential reality now"]
   attribution: "- Dire Straits"
-  attributionHref: "https://www.youtube.com/watch?v=HfArbuHqnEw"
+  attributionHref: "https://www.youtube.com/watch?v=FCz5CLmciAY"
 photos:
   - source: "Europe/Spain/Montserrat/Images/medium-1.jpg"
     sourceLarge: "Europe/Spain/Montserrat/Images/large-1.jpg"

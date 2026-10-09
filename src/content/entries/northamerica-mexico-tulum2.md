@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Little darling, it's been a long cold lonely winter", "Little darling, it feels like years since it's been here", "Here comes the sun", "Here comes the sun, and I say", "It's all right", "- The Beatles"]
   attribution: "- The Beatles"
-  attributionHref: "https://www.youtube.com/watch?v=GwmVfewqu7I"
+  attributionHref: "https://www.youtube.com/watch?v=KQetemT1sWc"
 photos:
   - source: "NorthAmerica/Mexico/Tulum2/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/Mexico/Tulum2/Images/large-1.jpg"

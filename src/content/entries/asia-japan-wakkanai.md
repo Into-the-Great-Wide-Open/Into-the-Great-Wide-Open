@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["She said you are a perfect stranger and so baby let's keep it like this"]
   attribution: "- Dire Straits"
-  attributionHref: "https://www.youtube.com/watch?v=Z0dwIFqlLXM"
+  attributionHref: "https://www.youtube.com/watch?v=rC95MEenIxA"
 photos:
   - source: "Asia/Japan/Wakkanai/Images/medium-1.jpg"
     sourceLarge: "Asia/Japan/Wakkanai/Images/large-1.jpg"

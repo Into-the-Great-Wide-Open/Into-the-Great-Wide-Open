@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Standing on a hill in my mountain of dreams", "Telling myself it's not as hard, hard, hard as it seems"]
   attribution: "- Led Zeppelin"
-  attributionHref: "https://www.youtube.com/watch?v=-cfc3rCQOuU"
+  attributionHref: "https://www.youtube.com/watch?v=-X6wBDnyh1E"
 photos:
   - source: "Asia/Georgia/Kazbegi/Images/medium-1.jpg"
     sourceLarge: "Asia/Georgia/Kazbegi/Images/large-1.jpg"

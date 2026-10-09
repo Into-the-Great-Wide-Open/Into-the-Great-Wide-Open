@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Like a true Nature's child", "we were born, born to be wild"]
   attribution: "- Steppenwolf"
-  attributionHref: "https://www.youtube.com/watch?v=1dAwI_jqcFQ"
+  attributionHref: "https://www.youtube.com/watch?v=igvP806798U"
 photos:
   - source: "NorthAmerica/USA/NorthCascades/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/NorthCascades/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Wild horses couldn't drag me away", "Wild, wild horses, we'll ride them some day"]
   attribution: "- The Rolling Stones"
-  attributionHref: "https://www.youtube.com/watch?v=l0QATz8aEAc"
+  attributionHref: "https://www.youtube.com/watch?v=SQTHB4jM-KQ"
 photos:
   - source: "SouthAmerica/Brazil/IlhaGrande/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Brazil/IlhaGrande/Images/large-1.jpg"

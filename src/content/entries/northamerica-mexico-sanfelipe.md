@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I want to sleep with you in the desert tonight with a billion stars all around"]
   attribution: "- The Eagles"
-  attributionHref: "https://www.youtube.com/watch?v=WwqHarJnQP8"
+  attributionHref: "https://www.youtube.com/watch?v=QRMIgT3thFM"
 photos:
   - source: "NorthAmerica/Mexico/SanFelipe/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/Mexico/SanFelipe/Images/large-1.jpg"

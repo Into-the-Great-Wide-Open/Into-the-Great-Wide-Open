@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Aim for places we've not been", "trample paths that lie between", "yesterday's foundations and tomorrow"]
   attribution: "- Bad Religion"
-  attributionHref: "https://www.youtube.com/watch?v=8K0KlddcPJI"
+  attributionHref: "https://www.youtube.com/watch?v=tIZaEDG-_-4"
 photos:
   - source: "NorthAmerica/USA/Helena/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Helena/Images/large-1.jpg"

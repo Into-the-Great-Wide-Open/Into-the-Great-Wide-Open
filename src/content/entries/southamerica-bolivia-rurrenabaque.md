@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["In wildness is the preservation of the world", "So seek the wolf in thyself"]
   attribution: "- Metallica"
-  attributionHref: "https://www.youtube.com/watch?v=mcm6D8m4ldc"
+  attributionHref: "https://www.youtube.com/watch?v=-3la4-WWCcE"
 photos:
   - source: "SouthAmerica/Bolivia/Rurrenabaque/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Bolivia/Rurrenabaque/Images/large-1.jpg"

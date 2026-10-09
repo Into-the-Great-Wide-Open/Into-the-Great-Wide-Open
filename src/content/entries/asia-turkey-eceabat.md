@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Our currency is flesh and bones"]
   attribution: "- Pink Floyd"
-  attributionHref: "https://www.youtube.com/watch?v=qIkW5okTFtg"
+  attributionHref: "https://www.youtube.com/watch?v=m7VTL_fLt5M"
 photos:
   - source: "Asia/Turkey/Eceabat/Images/medium-1.jpg"
     sourceLarge: "Asia/Turkey/Eceabat/Images/large-1.jpg"

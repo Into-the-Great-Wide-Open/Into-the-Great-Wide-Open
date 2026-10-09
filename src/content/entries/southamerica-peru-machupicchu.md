@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Yes, there are two paths you can go by", "But in the long run", "There's still time to change the road you're on", "And it makes me wonder"]
   attribution: "- Led Zeppelin"
-  attributionHref: "https://www.youtube.com/watch?v=9Q7Vr3yQYWQ"
+  attributionHref: "https://www.youtube.com/watch?v=Ly6ZhQVnVow"
 photos:
   - source: "SouthAmerica/Peru/MachuPicchu/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Peru/MachuPicchu/Images/large-1.jpg"

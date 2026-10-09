@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I'm going to Graceland", "For reasons I cannot explain", "There's some part of me wants to see", "Graceland", "And I may be obliged to defend", "Every love, every ending", "Or maybe there's no obligations now", "Maybe I've a reason to believe", "We all will be received", "In Graceland"]
   attribution: "- Paul Simon"
-  attributionHref: "https://www.youtube.com/watch?v=g9P-Zuq_yp0"
+  attributionHref: "https://www.youtube.com/watch?v=GP6a-7MP91g"
 photos:
   - source: "NorthAmerica/USA/Memphis/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Memphis/Images/large-1.jpg"

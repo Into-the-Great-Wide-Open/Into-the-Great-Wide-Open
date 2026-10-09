@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["And when I wake up in the morning", "To feel the daybreak on my face", "There's a blood that's flowin'", "Through the feeling, with a knife", "To open up the sky's veins"]
   attribution: "- Meat Puppets"
-  attributionHref: "https://www.youtube.com/watch?v=9-HFbNhTTKQ"
+  attributionHref: "https://www.youtube.com/watch?v=oFD88EyZ80E"
 photos:
   - source: "Asia/China/Karakul/Images/medium-1.jpg"
     sourceLarge: "Asia/China/Karakul/Images/large-1.jpg"

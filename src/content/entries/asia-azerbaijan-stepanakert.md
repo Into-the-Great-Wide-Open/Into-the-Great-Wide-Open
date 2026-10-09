@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["And the wars go on with brainwashed pride", "For the love of God and our human rights", "And all these things are swept aside", "By bloody hands time can't deny", "And are washed away by your genocide", "And history hides the lies of our civil wars"]
   attribution: "- Guns N' Roses"
-  attributionHref: "https://www.youtube.com/watch?v=O1fHxPY3TJo"
+  attributionHref: "https://www.youtube.com/watch?v=-ucDiz3GYrg"
 photos:
   - source: "Asia/Azerbaijan/Stepanakert/Images/medium-1.jpg"
     sourceLarge: "Asia/Azerbaijan/Stepanakert/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I kissed goodbye the howling beast on the borderline which separated you from me"]
   attribution: "- Bob Dylan"
-  attributionHref: "https://www.youtube.com/watch?v=TKMUz2o0NNw"
+  attributionHref: "https://www.youtube.com/watch?v=Ex05XUddWMk"
 photos:
   - source: "SouthAmerica/Chile/Arica/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Chile/Arica/Images/large-1.jpg"

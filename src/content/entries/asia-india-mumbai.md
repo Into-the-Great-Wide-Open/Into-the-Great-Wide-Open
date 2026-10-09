@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["How far you gonna go", "Before you lose your way back home", "You've been trying to throw your arms", "Around the world"]
   attribution: "- U2"
-  attributionHref: "https://www.youtube.com/watch?v=w2T2Pkj3Azs"
+  attributionHref: "https://www.youtube.com/watch?v=YkbeCWOnJzo"
 photos:
   - source: "Asia/India/Mumbai/Images/medium-1.jpg"
     sourceLarge: "Asia/India/Mumbai/Images/large-1.jpg"

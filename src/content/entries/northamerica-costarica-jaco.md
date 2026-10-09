@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Grace makes beauty out of ugly things"]
   attribution: "- U2"
-  attributionHref: "https://www.youtube.com/watch?v=7TvHrzQJ0NE"
+  attributionHref: "https://www.youtube.com/watch?v=81MEDY6ycyU"
 photos:
   - source: "NorthAmerica/CostaRica/Jaco/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/CostaRica/Jaco/Images/large-1.jpg"

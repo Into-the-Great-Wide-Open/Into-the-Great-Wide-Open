@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["There's a big, a big hard sun", "Beating on the big people", "In the big hard world"]
   attribution: "- Eddie Vedder"
-  attributionHref: "https://www.youtube.com/watch?v=nZbiZxA9b5k"
+  attributionHref: "https://www.youtube.com/watch?v=Ez8b2VHjVB0"
 photos:
   - source: "Asia/Turkey/Malatya/Images/medium-1.jpg"
     sourceLarge: "Asia/Turkey/Malatya/Images/large-1.jpg"

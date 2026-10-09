@@ -9,6 +9,6 @@ lyric:
     - "Society, you're a crazy breed"
     - "I hope you're not lonely without me"
   attribution: "Jerry Hannan"
-  attributionHref: "https://www.youtube.com/watch?v=8PRmH8gZrzw"
+  attributionHref: "https://www.youtube.com/watch?v=l2ahtGohgLY"
 sourcePath: "NorthAmerica/USA/index.shtml"
 ---

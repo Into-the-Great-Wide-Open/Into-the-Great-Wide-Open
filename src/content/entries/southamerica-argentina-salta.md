@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["The towns lay out across the dusty planes", "Like graveyards filled with tombstones", "Waiting for the names"]
   attribution: "- The Eagles"
-  attributionHref: "https://www.youtube.com/watch?v=pqtTrxX-cfE"
+  attributionHref: "https://www.youtube.com/watch?v=0L4qBm8LrIc"
 photos:
   - source: "SouthAmerica/Argentina/Salta/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Argentina/Salta/Images/large-1.jpg"

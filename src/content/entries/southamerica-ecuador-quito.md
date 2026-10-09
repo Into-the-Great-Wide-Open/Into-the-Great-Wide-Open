@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["With your disregard of time, virtue, horizon, here the angels never sleep"]
   attribution: "- Black Crowes"
-  attributionHref: "https://www.youtube.com/watch?v=fv9gZ95PbiM"
+  attributionHref: "https://www.youtube.com/watch?v=QKZjlMF9DoE"
 photos:
   - source: "SouthAmerica/Ecuador/Quito/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Ecuador/Quito/Images/large-1.jpg"

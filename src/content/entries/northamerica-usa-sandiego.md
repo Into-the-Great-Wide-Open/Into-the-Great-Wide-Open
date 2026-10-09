@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Lighten up while you still can", "Don't even try to understand", "Just find a place to make your stand", "And take it easy"]
   attribution: "- The Eagles"
-  attributionHref: "https://www.youtube.com/watch?v=IKpay8gumw0"
+  attributionHref: "https://www.youtube.com/watch?v=AaBw37-nWaY"
 photos:
   - source: "NorthAmerica/USA/SanDiego/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/SanDiego/Images/large-1.jpg"

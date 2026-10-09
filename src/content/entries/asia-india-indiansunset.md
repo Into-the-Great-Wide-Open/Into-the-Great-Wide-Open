@@ -14,7 +14,7 @@ coordinatesSource: "andrew_confirmed"
 lyric:
   lines: ["I've never seen you look like this without a reason", "Another promise fallen through, another season passes by you"]
   attribution: "- Big Country"
-  attributionHref: "https://www.youtube.com/watch?v=rB6AzLxWWzE"
+  attributionHref: "https://www.youtube.com/watch?v=657TZDHZqj4"
 photos:
   - source: "Asia/India/IndianSunset/Images/medium-1.jpg"
     sourceLarge: "Asia/India/IndianSunset/Images/large-1.jpg"

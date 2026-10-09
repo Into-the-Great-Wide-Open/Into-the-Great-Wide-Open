@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Catch the wind", "see us spin", "leave today", "sail away", "way up high in the sky"]
   attribution: "- Led Zeppelin"
-  attributionHref: "https://www.youtube.com/watch?v=00eN1t4iKCo"
+  attributionHref: "https://www.youtube.com/watch?v=LiczyhDwuBs"
 photos:
   - source: "NorthAmerica/USA/BryceZionNP/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/BryceZionNP/Images/large-1.jpg"

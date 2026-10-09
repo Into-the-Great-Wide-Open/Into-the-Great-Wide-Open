@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["I have all I want is that simple enough", "There's a whole lot more I'm thinking of"]
   attribution: "- Crowded House"
-  attributionHref: "https://www.youtube.com/watch?v=M0DJwPVU32E"
+  attributionHref: "https://www.youtube.com/watch?v=cPa70RNgOzk"
 photos:
   - source: "Asia/Tajikistan/Khorog/Images/medium-1.jpg"
     sourceLarge: "Asia/Tajikistan/Khorog/Images/large-1.jpg"

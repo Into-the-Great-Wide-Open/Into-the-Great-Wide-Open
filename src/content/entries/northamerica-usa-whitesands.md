@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["You can see their shadows wandering off somewhere", "They won't make it home", "But they really don't care", "They wanted the highway", "They're happier there today, today"]
   attribution: "- Fastball"
-  attributionHref: "https://www.youtube.com/watch?v=b0wfu3tOrtQ"
+  attributionHref: "https://www.youtube.com/watch?v=X5jlTlUTWfQ"
 photos:
   - source: "NorthAmerica/USA/WhiteSands/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/WhiteSands/Images/large-1.jpg"

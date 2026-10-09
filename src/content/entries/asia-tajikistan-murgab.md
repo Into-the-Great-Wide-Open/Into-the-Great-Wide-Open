@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["We're on a road to nowhere", "Come on inside", "Takin' that ride to nowhere", "We'll take that ride"]
   attribution: "- Talking Heads"
-  attributionHref: "https://www.youtube.com/watch?v=AWtCittJyr0"
+  attributionHref: "https://www.youtube.com/watch?v=LQiOA7euaYA"
 photos:
   - source: "Asia/Tajikistan/Murgab/Images/medium-1.jpg"
     sourceLarge: "Asia/Tajikistan/Murgab/Images/large-1.jpg"

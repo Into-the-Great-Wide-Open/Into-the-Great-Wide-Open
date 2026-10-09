@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I listen to the wind", "To the wind of my soul", "Where I'll end up well I think", "Only God really knows"]
   attribution: "- Cat Stevens"
-  attributionHref: "https://www.youtube.com/watch?v=jpwI1ihiei4"
+  attributionHref: "https://www.youtube.com/watch?v=Y2Ljtl2-wVQ"
 photos:
   - source: "NorthAmerica/USA/Chicago2/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Chicago2/Images/large-1.jpg"

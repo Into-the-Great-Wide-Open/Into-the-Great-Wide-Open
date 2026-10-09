@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Come on children mind the gap", "Miracle people with marvelous hair", "And a knack to do anything better than anyone", "I got a home with electrical air", "And I live in a world", "Smaller than anyone", "I got a line on a new frontier", "I got a line on a new America"]
   attribution: "- Counting Crows"
-  attributionHref: "https://www.youtube.com/watch?v=QLXNJMUFV_s&list=RDQLXNJMUFV_s"
+  attributionHref: "https://www.youtube.com/watch?v=Dp56B86KHoc"
 photos:
   - source: "NorthAmerica/USA/Portland/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Portland/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Well I'm running down the road trying to loosen my load", "Got a world of trouble on my mind"]
   attribution: "- Eagles"
-  attributionHref: "https://www.youtube.com/watch?v=IKpay8gumw0"
+  attributionHref: "https://www.youtube.com/watch?v=AaBw37-nWaY"
 photos:
   - source: "Asia/Kyrgyzstan/SaryTash/Images/medium-1.jpg"
     sourceLarge: "Asia/Kyrgyzstan/SaryTash/Images/large-1.jpg"

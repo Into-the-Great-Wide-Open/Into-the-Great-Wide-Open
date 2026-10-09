@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Four wheels scare the cockatoos", "From Kintore East to Yuendemu", "The western desert lives and breathes", "In forty five degrees"]
   attribution: "- Midnight Oil"
-  attributionHref: "https://www.youtube.com/watch?v=XzaRZtmwPag"
+  attributionHref: "https://www.youtube.com/watch?v=ejorQVy3m8E"
 photos:
   - source: "SouthPacific/Australia/Perth/Images/medium-1.jpg"
     sourceLarge: "SouthPacific/Australia/Perth/Images/large-1.jpg"

@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I go to the river from time to time to ponder over the crazy days in my life", "Watch the river flow, ease my mind and soul where I go"]
   attribution: "- Natalie Merchant"
-  attributionHref: "https://www.youtube.com/watch?v=CT72txymoGg"
+  attributionHref: "https://www.youtube.com/watch?v=f-ivXP8OUsE"
 photos:
   - source: "SouthAmerica/Brazil/PortoVelho/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Brazil/PortoVelho/Images/large-1.jpg"

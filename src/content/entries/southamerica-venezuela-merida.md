@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Letting the days go by", "Let the water hold me down", "Letting the days go by", "Water flowing underground", "Into the blue again", "After the money's gone", "Once in a lifetime", "Water flowing underground"]
   attribution: "- Talking Heads"
-  attributionHref: "https://www.youtube.com/watch?v=I1wg1DNHbNU"
+  attributionHref: "https://www.youtube.com/watch?v=5IsSpAOD6K8"
 photos:
   - source: "SouthAmerica/Venezuela/Merida/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Venezuela/Merida/Images/large-1.jpg"

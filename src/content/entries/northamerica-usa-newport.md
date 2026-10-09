@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Poor man wanna be rich", "Rich man wanna be king", "And a king ain't satisfied until he rules everything"]
   attribution: "- Bruce Springsteen"
-  attributionHref: "https://www.youtube.com/watch?v=TYjPoYYZSKw"
+  attributionHref: "https://www.youtube.com/watch?v=o5IZuuzUa04"
 photos:
   - source: "NorthAmerica/USA/Newport/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Newport/Images/large-1.jpg"

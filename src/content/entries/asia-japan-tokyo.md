@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Can you picture what will be, so limitless and free?", "Desperately in need of some stranger's hand, in a desperate land"]
   attribution: "- The Doors"
-  attributionHref: "https://www.youtube.com/watch?v=JSUIQgEVDM4"
+  attributionHref: "https://www.youtube.com/watch?v=9pRGoSbYHQE"
 photos:
   - source: "Asia/Japan/Tokyo/Images/medium-1.jpg"
     sourceLarge: "Asia/Japan/Tokyo/Images/large-1.jpg"

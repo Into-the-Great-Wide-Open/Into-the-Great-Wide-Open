@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I followed those highway signs", "and I've run down those thin white lines", "Like those drivers this old road is all I call my own"]
   attribution: "- Jackson Browne"
-  attributionHref: "https://www.youtube.com/watch?v=-AzUMlAsFhs"
+  attributionHref: "https://www.youtube.com/watch?v=VrvrCVl4wI0"
 photos:
   - source: "NorthAmerica/USA/Libby/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Libby/Images/large-1.jpg"

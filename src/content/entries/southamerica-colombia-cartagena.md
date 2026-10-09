@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Don't forget your history", "Know your destiny"]
   attribution: "- Bob Marley"
-  attributionHref: "https://www.youtube.com/watch?v=dCE3Ge4bCLk"
+  attributionHref: "https://www.youtube.com/watch?v=uMUQMSXLlHM"
 photos:
   - source: "SouthAmerica/Colombia/Cartagena/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Colombia/Cartagena/Images/large-1.jpg"

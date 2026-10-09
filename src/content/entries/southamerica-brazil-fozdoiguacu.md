@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Waterfall, nothing can harm me at all", "My worries seem so very small", "With my waterfall", "I can see my rainbow calling me", "Through the misty breeze", "Of my waterfall."]
   attribution: "- Jimi Hendrix"
-  attributionHref: "https://www.youtube.com/watch?v=aWp2iTKFY7U"
+  attributionHref: "https://www.youtube.com/watch?v=9DikrOU4468"
 photos:
   - source: "SouthAmerica/Brazil/FozdoIguacu/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Brazil/FozdoIguacu/Images/large-1.jpg"

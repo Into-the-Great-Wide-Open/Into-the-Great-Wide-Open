@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Don't let your dreams be dreams"]
   attribution: "- Jack Johnson"
-  attributionHref: "https://www.youtube.com/watch?v=7ePIeUQ4BSU"
+  attributionHref: "https://www.youtube.com/watch?v=YmGLnZ1Qlqc"
 photos:
   - source: "SouthAmerica/Venezuela/Canaima/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Venezuela/Canaima/Images/large-1.jpg"

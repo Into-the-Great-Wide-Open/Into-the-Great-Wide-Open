@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Won't be the last", "Won't be the first", "Find a way to where the sky meets the Earth", "It's alright and all wrong", "For me it begins at the end of the road"]
   attribution: "- Eddie Vedder"
-  attributionHref: "https://www.youtube.com/watch?v=HB1ZUlQzXvM"
+  attributionHref: "https://www.youtube.com/watch?v=e-_PDiA3pSc"
 photos:
   - source: "SouthAmerica/Chile/PuertoWilliams/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Chile/PuertoWilliams/Images/large-1.jpg"

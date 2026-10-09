@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Somewhere out there on that horizon", "Out beyond the neon lights", "I know there must be somethin' better", "But there's nowhere else in sight", "It's survival in the city"]
   attribution: "- The Eagles"
-  attributionHref: "https://www.youtube.com/watch?v=ADB7oozxPA4"
+  attributionHref: "https://www.youtube.com/watch?v=J39LK_wDzKw"
 photos:
   - source: "NorthAmerica/CostaRica/SanJose/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/CostaRica/SanJose/Images/large-1.jpg"

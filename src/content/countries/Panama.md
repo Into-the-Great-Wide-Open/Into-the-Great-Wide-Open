@@ -6,6 +6,6 @@ lyric:
     - "Leaves you standin' in the station"
     - "Your face pressed up against the glass"
   attribution: "U2"
-  attributionHref: "https://www.youtube.com/watch?v=FoUSx2hWdWc"
+  attributionHref: "https://www.youtube.com/watch?v=tkoEGVAHpZg"
 sourcePath: "NorthAmerica/Panama/index.shtml"
 ---

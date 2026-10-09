@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I've been the king, I've been the clown", "Now broken wings can't hold me down", "I'm free again"]
   attribution: "- Ozzy Osbourne"
-  attributionHref: "https://www.youtube.com/watch?v=WWyZjD8b-ZE"
+  attributionHref: "https://www.youtube.com/watch?v=iTT4YAXGFHQ"
 photos:
   - source: "NorthAmerica/USA/Denver/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Denver/Images/large-1.jpg"

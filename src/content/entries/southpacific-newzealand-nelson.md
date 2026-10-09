@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Out past the cornfields where the woods got heavy", "Out in the back seat of my '60 Chevy", "Workin' on mysteries without any clues", "Workin' on our night moves"]
   attribution: "- Bob Seger"
-  attributionHref: "https://www.youtube.com/watch?v=bgOA24hAe60"
+  attributionHref: "https://www.youtube.com/watch?v=xH7cSSKnkL4"
 photos:
   - source: "SouthPacific/NewZealand/Nelson/Images/medium-1.jpg"
     sourceLarge: "SouthPacific/NewZealand/Nelson/Images/large-1.jpg"

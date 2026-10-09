@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Power and the money, money and the power", "Minute after minute, hour after hour", "Everybody's running, but half of them ain't looking"]
   attribution: "- Coolio"
-  attributionHref: "https://www.youtube.com/watch?v=9oU_F0yS-Bo"
+  attributionHref: "https://www.youtube.com/watch?v=fPO76Jlnz6c"
 photos:
   - source: "SouthAmerica/Colombia/Medellin/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Colombia/Medellin/Images/large-1.jpg"

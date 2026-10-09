@@ -15,7 +15,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["People are strange when you're a stranger", "Faces look ugly when you're alone", "Women seem wicked when you're unwanted", "Streets are uneven when you're down", "When you're strange"]
   attribution: "- The Doors"
-  attributionHref: "https://www.youtube.com/watch?v=ZRAr354usf8"
+  attributionHref: "https://www.youtube.com/watch?v=AgHaGrZkkv4"
 photos:
   - source: "NorthAmerica/USA/Austin/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/USA/Austin/Images/large-1.jpg"

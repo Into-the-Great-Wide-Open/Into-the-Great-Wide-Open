@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["A broom is drearily sweeping", "up the broken pieces of yesterday's life"]
   attribution: "- Jimi Hendrix"
-  attributionHref: "https://www.youtube.com/watch?v=EbKwTpTja98"
+  attributionHref: "https://www.youtube.com/watch?v=wVs7b1vcCr4"
 photos:
   - source: "Africa/Senegal/Saint-Louis/Images/medium-1.jpg"
     sourceLarge: "Africa/Senegal/Saint-Louis/Images/large-1.jpg"

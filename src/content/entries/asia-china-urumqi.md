@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Does it feel that your life's become a catastrophe?", "Oh, it has to be for you to grow, boy", "When you look through the years", "And see what you could have been", "Oh, what might have been", "If you'd had more time"]
   attribution: "- Supertramp"
-  attributionHref: "https://www.youtube.com/watch?v=HfApBz4_XQk"
+  attributionHref: "https://www.youtube.com/watch?v=_Pts0jqX-yY"
 photos:
   - source: "Asia/China/Urumqi/Images/medium-1.jpg"
     sourceLarge: "Asia/China/Urumqi/Images/large-1.jpg"

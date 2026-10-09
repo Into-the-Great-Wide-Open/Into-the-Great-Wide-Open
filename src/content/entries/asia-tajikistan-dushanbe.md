@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Open up your eyes", "You can see the flames of your wasted life", "You should be ashamed", "You don't want to waste your life"]
   attribution: "- Counting Crows"
-  attributionHref: "https://www.youtube.com/watch?v=4jHZwcif5hk"
+  attributionHref: "https://www.youtube.com/watch?v=QWj-04CoNuw"
 photos:
   - source: "Asia/Tajikistan/Dushanbe/Images/medium-1.jpg"
     sourceLarge: "Asia/Tajikistan/Dushanbe/Images/large-1.jpg"

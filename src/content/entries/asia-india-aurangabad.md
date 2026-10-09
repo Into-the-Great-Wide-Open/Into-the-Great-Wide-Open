@@ -14,7 +14,7 @@ coordinatesSource: "country_marker_match"
 lyric:
   lines: ["Your everlasting summer", "You can see it fading fast", "So you grab a piece of something", "That you think is gonna last"]
   attribution: "- Steely Dan"
-  attributionHref: "https://www.youtube.com/watch?v=s7V5-O8Zk2k"
+  attributionHref: "https://www.youtube.com/watch?v=ICK6e9WK2A8"
 photos:
   - source: "Asia/India/Aurangabad/Images/medium-1.jpg"
     sourceLarge: "Asia/India/Aurangabad/Images/large-1.jpg"

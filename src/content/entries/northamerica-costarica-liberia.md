@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["We couldn't all be cowboys, some of us are clowns", "Some of us are dancers on the midway, we roam from town to town"]
   attribution: "- Counting Crows"
-  attributionHref: "https://www.youtube.com/watch?v=4HBiDpJWRLM"
+  attributionHref: "https://www.youtube.com/watch?v=gb6wCABym2o"
 photos:
   - source: "NorthAmerica/CostaRica/Liberia/Images/medium-1.jpg"
     sourceLarge: "NorthAmerica/CostaRica/Liberia/Images/large-1.jpg"

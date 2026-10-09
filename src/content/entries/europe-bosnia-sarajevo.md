@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["I have a sense that we will be alright", "I wish for peace with electric silence", "To keep our hearts beating on our minds", "And we will see that we're all connected", "When we awake to the tunnel's light"]
   attribution: "- Angels and Airwaves"
-  attributionHref: "https://www.youtube.com/watch?feature=player_detailpage&v=XbALANmNxro#t=48"
+  attributionHref: "https://www.youtube.com/watch?v=g3U6owjhTuc"
 photos:
   - source: "Europe/Bosnia/Sarajevo/Images/medium-1.jpg"
     sourceLarge: "Europe/Bosnia/Sarajevo/Images/large-1.jpg"

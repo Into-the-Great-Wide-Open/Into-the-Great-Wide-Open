@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["You can hide beneath the covers and study your pain", "Make crosses from your lovers, throw roses in the rain", "Waste your summer praying in vain", "For a savior to rise from these streets"]
   attribution: "- Bruce Springsteen"
-  attributionHref: "https://www.youtube.com/watch?v=x5kXnq5IjdU"
+  attributionHref: "https://www.youtube.com/watch?v=UDIDawmeeI0"
 photos:
   - source: "SouthAmerica/Bolivia/LaPaz/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Bolivia/LaPaz/Images/large-1.jpg"

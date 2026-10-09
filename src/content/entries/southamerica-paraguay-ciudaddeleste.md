@@ -14,7 +14,7 @@ coordinatesSource: "own_sidebar_map"
 lyric:
   lines: ["Sometimes we find ourselves in desperate need and we look to those of privilege and power", "It's then we learn compassion sits inert upon the shelves and we're at the mercy of imbeciles"]
   attribution: "- Bad Religion"
-  attributionHref: "https://www.youtube.com/watch?v=ZiJxjPa4hT4"
+  attributionHref: "https://www.youtube.com/watch?v=gqfh0pqEcBM"
 photos:
   - source: "SouthAmerica/Paraguay/CiudaddelEste/Images/medium-1.jpg"
     sourceLarge: "SouthAmerica/Paraguay/CiudaddelEste/Images/large-1.jpg"
